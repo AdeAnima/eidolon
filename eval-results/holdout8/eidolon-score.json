@@ -1,0 +1,2573 @@
+{
+  "version": 1,
+  "overall": {
+    "expected": 858,
+    "group_expected": 858,
+    "direct_found": 773,
+    "group_found": 819,
+    "false_positives": 0,
+    "group_false_positives": 0,
+    "direct_precision": 1.0,
+    "direct_recall": 0.9009324009324009,
+    "group_precision": 1.0,
+    "group_recall": 0.9545454545454546,
+    "relation_accuracy": 0.9987063389391979,
+    "direction_accuracy": 1.0
+  },
+  "variants": {
+    "expected": 879,
+    "group_expected": 0,
+    "direct_found": 778,
+    "group_found": 0,
+    "false_positives": 0,
+    "group_false_positives": 0,
+    "direct_precision": 1.0,
+    "direct_recall": 0.8850967007963595,
+    "group_precision": 1.0,
+    "group_recall": 0.0,
+    "relation_accuracy": 1.0,
+    "direction_accuracy": null
+  },
+  "url_traffic": {
+    "files": {
+      "media/image/000_exact.jpg": {
+        "size": 211420,
+        "bytes_served": 211420,
+        "requests": null
+      },
+      "media/image/000_resize_50.jpg": {
+        "size": 48432,
+        "bytes_served": 48432,
+        "requests": null
+      },
+      "media/image/000_thumb_320.jpg": {
+        "size": 11802,
+        "bytes_served": 11802,
+        "requests": null
+      },
+      "media/image/000_variant_relit.jpg": {
+        "size": 143607,
+        "bytes_served": 143607,
+        "requests": null
+      },
+      "media/image/001_canvas_reframe.jpg": {
+        "size": 363569,
+        "bytes_served": 363569,
+        "requests": null
+      },
+      "media/image/001_jpeg_q25.jpg": {
+        "size": 109714,
+        "bytes_served": 109714,
+        "requests": null
+      },
+      "media/image/001_png_to_jpeg.jpg": {
+        "size": 348291,
+        "bytes_served": 348291,
+        "requests": null
+      },
+      "media/image/001_subtle_hue.jpg": {
+        "size": 444091,
+        "bytes_served": 444091,
+        "requests": null
+      },
+      "media/image/001_subtle_relight.jpg": {
+        "size": 440380,
+        "bytes_served": 440380,
+        "requests": null
+      },
+      "media/image/001_thumb_320.jpg": {
+        "size": 53568,
+        "bytes_served": 53568,
+        "requests": null
+      },
+      "media/image/001_variant_hue.jpg": {
+        "size": 410528,
+        "bytes_served": 410528,
+        "requests": null
+      },
+      "media/image/001_variant_reframe.jpg": {
+        "size": 508435,
+        "bytes_served": 508435,
+        "requests": null
+      },
+      "media/image/002_crop_80.jpg": {
+        "size": 133559,
+        "bytes_served": 133559,
+        "requests": null
+      },
+      "media/image/002_resize_50.jpg": {
+        "size": 47424,
+        "bytes_served": 47424,
+        "requests": null
+      },
+      "media/image/003_exact.jpg": {
+        "size": 119034,
+        "bytes_served": 119034,
+        "requests": null
+      },
+      "media/image/003_resize_50.jpg": {
+        "size": 33623,
+        "bytes_served": 33623,
+        "requests": null
+      },
+      "media/image/003_variant_relit.jpg": {
+        "size": 86717,
+        "bytes_served": 86717,
+        "requests": null
+      },
+      "media/image/004_crop_40.jpg": {
+        "size": 47357,
+        "bytes_served": 47357,
+        "requests": null
+      },
+      "media/image/004_exact.jpg": {
+        "size": 112282,
+        "bytes_served": 112282,
+        "requests": null
+      },
+      "media/image/004_subtle_relight.jpg": {
+        "size": 112288,
+        "bytes_served": 112288,
+        "requests": null
+      },
+      "media/image/004_watermark.jpg": {
+        "size": 111762,
+        "bytes_served": 111762,
+        "requests": null
+      },
+      "media/image/005_canvas_reframe.jpg": {
+        "size": 134464,
+        "bytes_served": 134464,
+        "requests": null
+      },
+      "media/image/005_crop_watermark_q25.jpg": {
+        "size": 25191,
+        "bytes_served": 25191,
+        "requests": null
+      },
+      "media/image/005_png_to_jpeg.jpg": {
+        "size": 130611,
+        "bytes_served": 130611,
+        "requests": null
+      },
+      "media/image/005_thumb_320.jpg": {
+        "size": 10353,
+        "bytes_served": 10353,
+        "requests": null
+      },
+      "media/image/005_variant_hue.jpg": {
+        "size": 168911,
+        "bytes_served": 168911,
+        "requests": null
+      },
+      "media/image/005_variant_light_dark.jpg": {
+        "size": 159121,
+        "bytes_served": 159121,
+        "requests": null
+      },
+      "media/image/005_variant_relit.jpg": {
+        "size": 118097,
+        "bytes_served": 118097,
+        "requests": null
+      },
+      "media/image/005_watermark.jpg": {
+        "size": 127888,
+        "bytes_served": 127888,
+        "requests": null
+      },
+      "media/image/006_crop_60.jpg": {
+        "size": 81714,
+        "bytes_served": 81714,
+        "requests": null
+      },
+      "media/image/006_resize_50.jpg": {
+        "size": 32593,
+        "bytes_served": 32593,
+        "requests": null
+      },
+      "media/image/006_variant_hue.jpg": {
+        "size": 130976,
+        "bytes_served": 130976,
+        "requests": null
+      },
+      "media/image/007_canvas_reframe.jpg": {
+        "size": 294294,
+        "bytes_served": 294294,
+        "requests": null
+      },
+      "media/image/007_jpeg_q25.jpg": {
+        "size": 71585,
+        "bytes_served": 71585,
+        "requests": null
+      },
+      "media/image/007_png_to_jpeg.jpg": {
+        "size": 290935,
+        "bytes_served": 290935,
+        "requests": null
+      },
+      "media/image/007_resize_50.jpg": {
+        "size": 83459,
+        "bytes_served": 83459,
+        "requests": null
+      },
+      "media/image/007_thumb_320.jpg": {
+        "size": 18721,
+        "bytes_served": 18721,
+        "requests": null
+      },
+      "media/image/007_variant_light_dark.jpg": {
+        "size": 354233,
+        "bytes_served": 354233,
+        "requests": null
+      },
+      "media/image/007_variant_reframe.jpg": {
+        "size": 325305,
+        "bytes_served": 325305,
+        "requests": null
+      },
+      "media/image/008_crop_60.jpg": {
+        "size": 214175,
+        "bytes_served": 214175,
+        "requests": null
+      },
+      "media/image/009_resize_50.jpg": {
+        "size": 24218,
+        "bytes_served": 24218,
+        "requests": null
+      },
+      "media/image/010_canvas_reframe.jpg": {
+        "size": 69845,
+        "bytes_served": 69845,
+        "requests": null
+      },
+      "media/image/010_crop_80.jpg": {
+        "size": 70441,
+        "bytes_served": 70441,
+        "requests": null
+      },
+      "media/image/010_crop_watermark_q25.jpg": {
+        "size": 19130,
+        "bytes_served": 19130,
+        "requests": null
+      },
+      "media/image/010_thumb_320.jpg": {
+        "size": 9788,
+        "bytes_served": 9788,
+        "requests": null
+      },
+      "media/image/010_variant_reframe.jpg": {
+        "size": 78521,
+        "bytes_served": 78521,
+        "requests": null
+      },
+      "media/image/011_crop_40.jpg": {
+        "size": 63025,
+        "bytes_served": 63025,
+        "requests": null
+      },
+      "media/image/011_jpeg_q25.jpg": {
+        "size": 44894,
+        "bytes_served": 44894,
+        "requests": null
+      },
+      "media/image/011_variant_hue.jpg": {
+        "size": 312834,
+        "bytes_served": 312834,
+        "requests": null
+      },
+      "media/image/012_exact.jpg": {
+        "size": 135139,
+        "bytes_served": 135139,
+        "requests": null
+      },
+      "media/image/012_jpeg_q25.jpg": {
+        "size": 30349,
+        "bytes_served": 30349,
+        "requests": null
+      },
+      "media/image/012_resize_50.jpg": {
+        "size": 37079,
+        "bytes_served": 37079,
+        "requests": null
+      },
+      "media/image/012_variant_reframe.jpg": {
+        "size": 105846,
+        "bytes_served": 105846,
+        "requests": null
+      },
+      "media/image/012_watermark.jpg": {
+        "size": 136871,
+        "bytes_served": 136871,
+        "requests": null
+      },
+      "media/image/013_resize_50.jpg": {
+        "size": 69079,
+        "bytes_served": 69079,
+        "requests": null
+      },
+      "media/image/013_variant_hue.jpg": {
+        "size": 293768,
+        "bytes_served": 293768,
+        "requests": null
+      },
+      "media/image/013_variant_light_dark.jpg": {
+        "size": 276540,
+        "bytes_served": 276540,
+        "requests": null
+      },
+      "media/image/013_variant_relit.jpg": {
+        "size": 292223,
+        "bytes_served": 292223,
+        "requests": null
+      },
+      "media/image/014_crop_80.jpg": {
+        "size": 93934,
+        "bytes_served": 93934,
+        "requests": null
+      },
+      "media/image/014_exact.jpg": {
+        "size": 103134,
+        "bytes_served": 103134,
+        "requests": null
+      },
+      "media/image/014_png_to_jpeg.jpg": {
+        "size": 84137,
+        "bytes_served": 84137,
+        "requests": null
+      },
+      "media/image/014_variant_reframe.jpg": {
+        "size": 103182,
+        "bytes_served": 103182,
+        "requests": null
+      },
+      "media/image/015_canvas_reframe.jpg": {
+        "size": 141636,
+        "bytes_served": 141636,
+        "requests": null
+      },
+      "media/image/015_crop_60.jpg": {
+        "size": 104975,
+        "bytes_served": 104975,
+        "requests": null
+      },
+      "media/image/015_thumb_320.jpg": {
+        "size": 23236,
+        "bytes_served": 23236,
+        "requests": null
+      },
+      "media/image/016_crop_80.jpg": {
+        "size": 146819,
+        "bytes_served": 146819,
+        "requests": null
+      },
+      "media/image/016_png_to_jpeg.jpg": {
+        "size": 140030,
+        "bytes_served": 140030,
+        "requests": null
+      },
+      "media/image/016_variant_reframe.jpg": {
+        "size": 281618,
+        "bytes_served": 281618,
+        "requests": null
+      },
+      "media/image/017_jpeg_q25.jpg": {
+        "size": 25149,
+        "bytes_served": 25149,
+        "requests": null
+      },
+      "media/image/017_watermark.jpg": {
+        "size": 107859,
+        "bytes_served": 107859,
+        "requests": null
+      },
+      "media/image/018_variant_light_dark.jpg": {
+        "size": 82863,
+        "bytes_served": 82863,
+        "requests": null
+      },
+      "media/image/018_variant_reframe.jpg": {
+        "size": 205680,
+        "bytes_served": 205680,
+        "requests": null
+      },
+      "media/image/019_exact.jpg": {
+        "size": 142676,
+        "bytes_served": 142676,
+        "requests": null
+      },
+      "media/image/019_png_transcode.png": {
+        "size": 612468,
+        "bytes_served": 612468,
+        "requests": null
+      },
+      "media/image/019_variant_reframe.jpg": {
+        "size": 146154,
+        "bytes_served": 146154,
+        "requests": null
+      },
+      "media/image/video_002_thumb_frame.jpg": {
+        "size": 15469,
+        "bytes_served": 15469,
+        "requests": null
+      },
+      "media/image/video_003_thumb_frame.jpg": {
+        "size": 11029,
+        "bytes_served": 11029,
+        "requests": null
+      },
+      "media/image/video_008_thumb_overlay.jpg": {
+        "size": 31316,
+        "bytes_served": 31316,
+        "requests": null
+      },
+      "media/image/video_010_thumb_overlay.jpg": {
+        "size": 20953,
+        "bytes_served": 20953,
+        "requests": null
+      },
+      "media/image/video_013_thumb_overlay.jpg": {
+        "size": 20124,
+        "bytes_served": 20124,
+        "requests": null
+      },
+      "media/image/video_015_thumb_frame.jpg": {
+        "size": 15113,
+        "bytes_served": 15113,
+        "requests": null
+      },
+      "media/image/video_015_thumb_poster.jpg": {
+        "size": 147690,
+        "bytes_served": 147690,
+        "requests": null
+      },
+      "media/image/video_017_thumb_frame.jpg": {
+        "size": 9974,
+        "bytes_served": 9974,
+        "requests": null
+      },
+      "media/image/video_018_thumb_overlay.jpg": {
+        "size": 26069,
+        "bytes_served": 26069,
+        "requests": null
+      },
+      "media/video/001_letterboxed.mp4": {
+        "size": 9407517,
+        "bytes_served": 2346013,
+        "requests": null
+      },
+      "media/video/001_watermark.mp4": {
+        "size": 18904304,
+        "bytes_served": 4699376,
+        "requests": null
+      },
+      "media/video/002_clip_25pct.mp4": {
+        "size": 1223471,
+        "bytes_served": 109359,
+        "requests": null
+      },
+      "media/video/003_low_bitrate_360p.mp4": {
+        "size": 1646775,
+        "bytes_served": 401591,
+        "requests": null
+      },
+      "media/video/004_clip_25pct.mp4": {
+        "size": 4073018,
+        "bytes_served": 1009210,
+        "requests": null
+      },
+      "media/video/004_variant_hue.mp4": {
+        "size": 14197061,
+        "bytes_served": 3547461,
+        "requests": null
+      },
+      "media/video/004_watermark.mp4": {
+        "size": 15361999,
+        "bytes_served": 3827663,
+        "requests": null
+      },
+      "media/video/005_clip_25pct.mp4": {
+        "size": 2978188,
+        "bytes_served": 700812,
+        "requests": null
+      },
+      "media/video/005_variant_hue.mp4": {
+        "size": 9831021,
+        "bytes_served": 2425453,
+        "requests": null
+      },
+      "media/video/005_watermark.mp4": {
+        "size": 10689109,
+        "bytes_served": 2660949,
+        "requests": null
+      },
+      "media/video/006_watermark.mp4": {
+        "size": 26606715,
+        "bytes_served": 6651003,
+        "requests": null
+      },
+      "media/video/007_clip_25pct.mp4": {
+        "size": 5192390,
+        "bytes_served": 1260230,
+        "requests": null
+      },
+      "media/video/007_variant_hue.mp4": {
+        "size": 13839266,
+        "bytes_served": 3451810,
+        "requests": null
+      },
+      "media/video/009_clip_25pct.mp4": {
+        "size": 4465306,
+        "bytes_served": 1106586,
+        "requests": null
+      },
+      "media/video/009_variant_hue.mp4": {
+        "size": 12018670,
+        "bytes_served": 2991086,
+        "requests": null
+      },
+      "media/video/010_exact.webm": {
+        "size": 14297270,
+        "bytes_served": 3565750,
+        "requests": null
+      },
+      "media/video/010_low_bitrate_360p.mp4": {
+        "size": 702159,
+        "bytes_served": 46799,
+        "requests": null
+      },
+      "media/video/010_variant_hue.mp4": {
+        "size": 17338012,
+        "bytes_served": 4296348,
+        "requests": null
+      },
+      "media/video/010_watermark.mp4": {
+        "size": 19991223,
+        "bytes_served": 4967095,
+        "requests": null
+      },
+      "media/video/011_clip_25pct.mp4": {
+        "size": 3364243,
+        "bytes_served": 120211,
+        "requests": null
+      },
+      "media/video/012_watermark.mp4": {
+        "size": 15652548,
+        "bytes_served": 3905220,
+        "requests": null
+      },
+      "media/video/013_variant_hue.mp4": {
+        "size": 38531311,
+        "bytes_served": 9629935,
+        "requests": null
+      },
+      "media/video/014_exact.webm": {
+        "size": 40330823,
+        "bytes_served": 10069575,
+        "requests": null
+      },
+      "media/video/014_letterboxed.mp4": {
+        "size": 10757509,
+        "bytes_served": 2680197,
+        "requests": null
+      },
+      "media/video/016_clip_10s.mp4": {
+        "size": 1592070,
+        "bytes_served": 68358,
+        "requests": null
+      },
+      "media/video/016_variant_hue.mp4": {
+        "size": 27025650,
+        "bytes_served": 6742258,
+        "requests": null
+      },
+      "media/video/017_watermark.mp4": {
+        "size": 21237156,
+        "bytes_served": 5295524,
+        "requests": null
+      },
+      "media/video/018_clip_25pct.mp4": {
+        "size": 5094432,
+        "bytes_served": 1227808,
+        "requests": null
+      }
+    },
+    "bytes_served": 101387066,
+    "full_remote_bytes": 377932602,
+    "bytes_fetched_ratio": 0.2682675838587749
+  },
+  "served_traffic": {
+    "files": {
+      "media/image/000_exact.jpg": {
+        "size": 211420,
+        "bytes_served": 211420,
+        "requests": 2
+      },
+      "media/image/000_resize_50.jpg": {
+        "size": 48432,
+        "bytes_served": 48432,
+        "requests": 2
+      },
+      "media/image/000_thumb_320.jpg": {
+        "size": 11802,
+        "bytes_served": 11802,
+        "requests": 2
+      },
+      "media/image/000_variant_relit.jpg": {
+        "size": 143607,
+        "bytes_served": 143607,
+        "requests": 2
+      },
+      "media/image/001_canvas_reframe.jpg": {
+        "size": 363569,
+        "bytes_served": 363569,
+        "requests": 2
+      },
+      "media/image/001_jpeg_q25.jpg": {
+        "size": 109714,
+        "bytes_served": 109714,
+        "requests": 2
+      },
+      "media/image/001_png_to_jpeg.jpg": {
+        "size": 348291,
+        "bytes_served": 348291,
+        "requests": 2
+      },
+      "media/image/001_subtle_hue.jpg": {
+        "size": 444091,
+        "bytes_served": 444091,
+        "requests": 2
+      },
+      "media/image/001_subtle_relight.jpg": {
+        "size": 440380,
+        "bytes_served": 440380,
+        "requests": 2
+      },
+      "media/image/001_thumb_320.jpg": {
+        "size": 53568,
+        "bytes_served": 53568,
+        "requests": 2
+      },
+      "media/image/001_variant_hue.jpg": {
+        "size": 410528,
+        "bytes_served": 410528,
+        "requests": 2
+      },
+      "media/image/001_variant_reframe.jpg": {
+        "size": 508435,
+        "bytes_served": 508435,
+        "requests": 2
+      },
+      "media/image/002_crop_80.jpg": {
+        "size": 133559,
+        "bytes_served": 133559,
+        "requests": 2
+      },
+      "media/image/002_resize_50.jpg": {
+        "size": 47424,
+        "bytes_served": 47424,
+        "requests": 2
+      },
+      "media/image/003_exact.jpg": {
+        "size": 119034,
+        "bytes_served": 119034,
+        "requests": 2
+      },
+      "media/image/003_resize_50.jpg": {
+        "size": 33623,
+        "bytes_served": 33623,
+        "requests": 2
+      },
+      "media/image/003_variant_relit.jpg": {
+        "size": 86717,
+        "bytes_served": 86717,
+        "requests": 2
+      },
+      "media/image/004_crop_40.jpg": {
+        "size": 47357,
+        "bytes_served": 47357,
+        "requests": 2
+      },
+      "media/image/004_exact.jpg": {
+        "size": 112282,
+        "bytes_served": 112282,
+        "requests": 2
+      },
+      "media/image/004_subtle_relight.jpg": {
+        "size": 112288,
+        "bytes_served": 112288,
+        "requests": 2
+      },
+      "media/image/004_watermark.jpg": {
+        "size": 111762,
+        "bytes_served": 111762,
+        "requests": 2
+      },
+      "media/image/005_canvas_reframe.jpg": {
+        "size": 134464,
+        "bytes_served": 134464,
+        "requests": 2
+      },
+      "media/image/005_crop_watermark_q25.jpg": {
+        "size": 25191,
+        "bytes_served": 25191,
+        "requests": 2
+      },
+      "media/image/005_png_to_jpeg.jpg": {
+        "size": 130611,
+        "bytes_served": 130611,
+        "requests": 2
+      },
+      "media/image/005_thumb_320.jpg": {
+        "size": 10353,
+        "bytes_served": 10353,
+        "requests": 2
+      },
+      "media/image/005_variant_hue.jpg": {
+        "size": 168911,
+        "bytes_served": 168911,
+        "requests": 2
+      },
+      "media/image/005_variant_light_dark.jpg": {
+        "size": 159121,
+        "bytes_served": 159121,
+        "requests": 2
+      },
+      "media/image/005_variant_relit.jpg": {
+        "size": 118097,
+        "bytes_served": 118097,
+        "requests": 2
+      },
+      "media/image/005_watermark.jpg": {
+        "size": 127888,
+        "bytes_served": 127888,
+        "requests": 2
+      },
+      "media/image/006_crop_60.jpg": {
+        "size": 81714,
+        "bytes_served": 81714,
+        "requests": 2
+      },
+      "media/image/006_resize_50.jpg": {
+        "size": 32593,
+        "bytes_served": 32593,
+        "requests": 2
+      },
+      "media/image/006_variant_hue.jpg": {
+        "size": 130976,
+        "bytes_served": 130976,
+        "requests": 2
+      },
+      "media/image/007_canvas_reframe.jpg": {
+        "size": 294294,
+        "bytes_served": 294294,
+        "requests": 2
+      },
+      "media/image/007_jpeg_q25.jpg": {
+        "size": 71585,
+        "bytes_served": 71585,
+        "requests": 2
+      },
+      "media/image/007_png_to_jpeg.jpg": {
+        "size": 290935,
+        "bytes_served": 290935,
+        "requests": 2
+      },
+      "media/image/007_resize_50.jpg": {
+        "size": 83459,
+        "bytes_served": 83459,
+        "requests": 2
+      },
+      "media/image/007_thumb_320.jpg": {
+        "size": 18721,
+        "bytes_served": 18721,
+        "requests": 2
+      },
+      "media/image/007_variant_light_dark.jpg": {
+        "size": 354233,
+        "bytes_served": 354233,
+        "requests": 2
+      },
+      "media/image/007_variant_reframe.jpg": {
+        "size": 325305,
+        "bytes_served": 325305,
+        "requests": 2
+      },
+      "media/image/008_crop_60.jpg": {
+        "size": 214175,
+        "bytes_served": 214175,
+        "requests": 2
+      },
+      "media/image/009_resize_50.jpg": {
+        "size": 24218,
+        "bytes_served": 24218,
+        "requests": 2
+      },
+      "media/image/010_canvas_reframe.jpg": {
+        "size": 69845,
+        "bytes_served": 69845,
+        "requests": 2
+      },
+      "media/image/010_crop_80.jpg": {
+        "size": 70441,
+        "bytes_served": 70441,
+        "requests": 2
+      },
+      "media/image/010_crop_watermark_q25.jpg": {
+        "size": 19130,
+        "bytes_served": 19130,
+        "requests": 2
+      },
+      "media/image/010_thumb_320.jpg": {
+        "size": 9788,
+        "bytes_served": 9788,
+        "requests": 2
+      },
+      "media/image/010_variant_reframe.jpg": {
+        "size": 78521,
+        "bytes_served": 78521,
+        "requests": 2
+      },
+      "media/image/011_crop_40.jpg": {
+        "size": 63025,
+        "bytes_served": 63025,
+        "requests": 2
+      },
+      "media/image/011_jpeg_q25.jpg": {
+        "size": 44894,
+        "bytes_served": 44894,
+        "requests": 2
+      },
+      "media/image/011_variant_hue.jpg": {
+        "size": 312834,
+        "bytes_served": 312834,
+        "requests": 2
+      },
+      "media/image/012_exact.jpg": {
+        "size": 135139,
+        "bytes_served": 135139,
+        "requests": 2
+      },
+      "media/image/012_jpeg_q25.jpg": {
+        "size": 30349,
+        "bytes_served": 30349,
+        "requests": 2
+      },
+      "media/image/012_resize_50.jpg": {
+        "size": 37079,
+        "bytes_served": 37079,
+        "requests": 2
+      },
+      "media/image/012_variant_reframe.jpg": {
+        "size": 105846,
+        "bytes_served": 105846,
+        "requests": 2
+      },
+      "media/image/012_watermark.jpg": {
+        "size": 136871,
+        "bytes_served": 136871,
+        "requests": 2
+      },
+      "media/image/013_resize_50.jpg": {
+        "size": 69079,
+        "bytes_served": 69079,
+        "requests": 2
+      },
+      "media/image/013_variant_hue.jpg": {
+        "size": 293768,
+        "bytes_served": 293768,
+        "requests": 2
+      },
+      "media/image/013_variant_light_dark.jpg": {
+        "size": 276540,
+        "bytes_served": 276540,
+        "requests": 2
+      },
+      "media/image/013_variant_relit.jpg": {
+        "size": 292223,
+        "bytes_served": 292223,
+        "requests": 2
+      },
+      "media/image/014_crop_80.jpg": {
+        "size": 93934,
+        "bytes_served": 93934,
+        "requests": 2
+      },
+      "media/image/014_exact.jpg": {
+        "size": 103134,
+        "bytes_served": 103134,
+        "requests": 2
+      },
+      "media/image/014_png_to_jpeg.jpg": {
+        "size": 84137,
+        "bytes_served": 84137,
+        "requests": 2
+      },
+      "media/image/014_variant_reframe.jpg": {
+        "size": 103182,
+        "bytes_served": 103182,
+        "requests": 2
+      },
+      "media/image/015_canvas_reframe.jpg": {
+        "size": 141636,
+        "bytes_served": 141636,
+        "requests": 2
+      },
+      "media/image/015_crop_60.jpg": {
+        "size": 104975,
+        "bytes_served": 104975,
+        "requests": 2
+      },
+      "media/image/015_thumb_320.jpg": {
+        "size": 23236,
+        "bytes_served": 23236,
+        "requests": 2
+      },
+      "media/image/016_crop_80.jpg": {
+        "size": 146819,
+        "bytes_served": 146819,
+        "requests": 2
+      },
+      "media/image/016_png_to_jpeg.jpg": {
+        "size": 140030,
+        "bytes_served": 140030,
+        "requests": 2
+      },
+      "media/image/016_variant_reframe.jpg": {
+        "size": 281618,
+        "bytes_served": 281618,
+        "requests": 2
+      },
+      "media/image/017_jpeg_q25.jpg": {
+        "size": 25149,
+        "bytes_served": 25149,
+        "requests": 2
+      },
+      "media/image/017_watermark.jpg": {
+        "size": 107859,
+        "bytes_served": 107859,
+        "requests": 2
+      },
+      "media/image/018_variant_light_dark.jpg": {
+        "size": 82863,
+        "bytes_served": 82863,
+        "requests": 2
+      },
+      "media/image/018_variant_reframe.jpg": {
+        "size": 205680,
+        "bytes_served": 205680,
+        "requests": 2
+      },
+      "media/image/019_exact.jpg": {
+        "size": 142676,
+        "bytes_served": 142676,
+        "requests": 2
+      },
+      "media/image/019_png_transcode.png": {
+        "size": 612468,
+        "bytes_served": 612468,
+        "requests": 2
+      },
+      "media/image/019_variant_reframe.jpg": {
+        "size": 146154,
+        "bytes_served": 146154,
+        "requests": 2
+      },
+      "media/image/video_002_thumb_frame.jpg": {
+        "size": 15469,
+        "bytes_served": 15469,
+        "requests": 2
+      },
+      "media/image/video_003_thumb_frame.jpg": {
+        "size": 11029,
+        "bytes_served": 11029,
+        "requests": 2
+      },
+      "media/image/video_008_thumb_overlay.jpg": {
+        "size": 31316,
+        "bytes_served": 31316,
+        "requests": 2
+      },
+      "media/image/video_010_thumb_overlay.jpg": {
+        "size": 20953,
+        "bytes_served": 20953,
+        "requests": 2
+      },
+      "media/image/video_013_thumb_overlay.jpg": {
+        "size": 20124,
+        "bytes_served": 20124,
+        "requests": 2
+      },
+      "media/image/video_015_thumb_frame.jpg": {
+        "size": 15113,
+        "bytes_served": 15113,
+        "requests": 2
+      },
+      "media/image/video_015_thumb_poster.jpg": {
+        "size": 147690,
+        "bytes_served": 147690,
+        "requests": 2
+      },
+      "media/image/video_017_thumb_frame.jpg": {
+        "size": 9974,
+        "bytes_served": 9974,
+        "requests": 2
+      },
+      "media/image/video_018_thumb_overlay.jpg": {
+        "size": 26069,
+        "bytes_served": 26069,
+        "requests": 2
+      },
+      "media/video/001_letterboxed.mp4": {
+        "size": 9407517,
+        "bytes_served": 2346013,
+        "requests": 139
+      },
+      "media/video/001_watermark.mp4": {
+        "size": 18904304,
+        "bytes_served": 4699376,
+        "requests": 156
+      },
+      "media/video/002_clip_25pct.mp4": {
+        "size": 1223471,
+        "bytes_served": 109359,
+        "requests": 4
+      },
+      "media/video/003_low_bitrate_360p.mp4": {
+        "size": 1646775,
+        "bytes_served": 401591,
+        "requests": 25
+      },
+      "media/video/004_clip_25pct.mp4": {
+        "size": 4073018,
+        "bytes_served": 1009210,
+        "requests": 62
+      },
+      "media/video/004_variant_hue.mp4": {
+        "size": 14197061,
+        "bytes_served": 3547461,
+        "requests": 209
+      },
+      "media/video/004_watermark.mp4": {
+        "size": 15361999,
+        "bytes_served": 3827663,
+        "requests": 225
+      },
+      "media/video/005_clip_25pct.mp4": {
+        "size": 2978188,
+        "bytes_served": 700812,
+        "requests": 40
+      },
+      "media/video/005_variant_hue.mp4": {
+        "size": 9831021,
+        "bytes_served": 2425453,
+        "requests": 72
+      },
+      "media/video/005_watermark.mp4": {
+        "size": 10689109,
+        "bytes_served": 2660949,
+        "requests": 77
+      },
+      "media/video/006_watermark.mp4": {
+        "size": 26606715,
+        "bytes_served": 6651003,
+        "requests": 173
+      },
+      "media/video/007_clip_25pct.mp4": {
+        "size": 5192390,
+        "bytes_served": 1260230,
+        "requests": 38
+      },
+      "media/video/007_variant_hue.mp4": {
+        "size": 13839266,
+        "bytes_served": 3451810,
+        "requests": 110
+      },
+      "media/video/009_clip_25pct.mp4": {
+        "size": 4465306,
+        "bytes_served": 1106586,
+        "requests": 38
+      },
+      "media/video/009_variant_hue.mp4": {
+        "size": 12018670,
+        "bytes_served": 2991086,
+        "requests": 160
+      },
+      "media/video/010_exact.webm": {
+        "size": 14297270,
+        "bytes_served": 3565750,
+        "requests": 220
+      },
+      "media/video/010_low_bitrate_360p.mp4": {
+        "size": 702159,
+        "bytes_served": 46799,
+        "requests": 4
+      },
+      "media/video/010_variant_hue.mp4": {
+        "size": 17338012,
+        "bytes_served": 4296348,
+        "requests": 122
+      },
+      "media/video/010_watermark.mp4": {
+        "size": 19991223,
+        "bytes_served": 4967095,
+        "requests": 123
+      },
+      "media/video/011_clip_25pct.mp4": {
+        "size": 3364243,
+        "bytes_served": 120211,
+        "requests": 4
+      },
+      "media/video/012_watermark.mp4": {
+        "size": 15652548,
+        "bytes_served": 3905220,
+        "requests": 225
+      },
+      "media/video/013_variant_hue.mp4": {
+        "size": 38531311,
+        "bytes_served": 9629935,
+        "requests": 334
+      },
+      "media/video/014_exact.webm": {
+        "size": 40330823,
+        "bytes_served": 10069575,
+        "requests": 618
+      },
+      "media/video/014_letterboxed.mp4": {
+        "size": 10757509,
+        "bytes_served": 2680197,
+        "requests": 99
+      },
+      "media/video/016_clip_10s.mp4": {
+        "size": 1592070,
+        "bytes_served": 68358,
+        "requests": 4
+      },
+      "media/video/016_variant_hue.mp4": {
+        "size": 27025650,
+        "bytes_served": 6742258,
+        "requests": 368
+      },
+      "media/video/017_watermark.mp4": {
+        "size": 21237156,
+        "bytes_served": 5295524,
+        "requests": 289
+      },
+      "media/video/018_clip_25pct.mp4": {
+        "size": 5094432,
+        "bytes_served": 1227808,
+        "requests": 25
+      }
+    },
+    "bytes_served": 101387066,
+    "full_remote_bytes": 377932602,
+    "bytes_fetched_ratio": 0.2682675838587749
+  },
+  "remote_video_mode": "keyframes",
+  "eidolon_args": [
+    "--json",
+    "--thumbnails",
+    "on",
+    "--remote-video-mode",
+    "keyframes",
+    "--stdin",
+    "--null"
+  ],
+  "categories": {
+    "image/canvas_reframe": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/crop_40": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 19,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.95,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/crop_60": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/crop_80": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/crop_watermark_q25": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 16,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/exact": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/jpeg_q25": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/original": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/png_to_jpeg": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/png_transcode": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/resize_50": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/subtle_hue": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/subtle_relight": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/thumb_320": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/thumb_frame": {
+      "expected": 106,
+      "group_expected": 106,
+      "direct_found": 92,
+      "group_found": 98,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8679245283018868,
+      "group_precision": 1.0,
+      "group_recall": 0.9245283018867925,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/thumb_overlay": {
+      "expected": 106,
+      "group_expected": 106,
+      "direct_found": 82,
+      "group_found": 98,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.7735849056603774,
+      "group_precision": 1.0,
+      "group_recall": 0.9245283018867925,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/thumb_poster": {
+      "expected": 106,
+      "group_expected": 106,
+      "direct_found": 92,
+      "group_found": 98,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8679245283018868,
+      "group_precision": 1.0,
+      "group_recall": 0.9245283018867925,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/variant": {
+      "expected": 819,
+      "group_expected": 0,
+      "direct_found": 762,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.9304029304029304,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/variant_hue": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/variant_light_dark": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/variant_reframe": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/variant_relit": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/watermark": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/crlf": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/exact": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/excerpt_10": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "text/excerpt_20": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "text/excerpt_30": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "text/light_edits": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/original": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "text/rewrapped": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/variant": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "video/clip_10s": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 16,
+      "group_found": 18,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8,
+      "group_precision": 1.0,
+      "group_recall": 0.9,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "video/clip_25pct": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 11,
+      "group_found": 13,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.55,
+      "group_precision": 1.0,
+      "group_recall": 0.65,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "video/exact": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 18,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.9,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "video/letterboxed": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 19,
+      "group_found": 19,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.95,
+      "group_precision": 1.0,
+      "group_recall": 0.95,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "video/low_bitrate_360p": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 17,
+      "group_found": 18,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.85,
+      "group_precision": 1.0,
+      "group_recall": 0.9,
+      "relation_accuracy": 0.9411764705882353,
+      "direction_accuracy": null
+    },
+    "video/original": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "video/variant": {
+      "expected": 60,
+      "group_expected": 0,
+      "direct_found": 16,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.26666666666666666,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "video/variant_hue": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "video/watermark": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 11,
+      "group_found": 17,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.55,
+      "group_precision": 1.0,
+      "group_recall": 0.85,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    }
+  },
+  "frame_of": {
+    "local_video": {
+      "expected": 276,
+      "direct_found": 249,
+      "group_found": 273,
+      "group_expected": 276,
+      "direct_recall": 0.9021739130434783,
+      "group_recall": 0.9891304347826086
+    },
+    "local_video/thumb_frame": {
+      "expected": 92,
+      "direct_found": 87,
+      "group_found": 91,
+      "group_expected": 92,
+      "direct_recall": 0.9456521739130435,
+      "group_recall": 0.9891304347826086
+    },
+    "local_video/thumb_overlay": {
+      "expected": 92,
+      "direct_found": 75,
+      "group_found": 91,
+      "group_expected": 92,
+      "direct_recall": 0.8152173913043478,
+      "group_recall": 0.9891304347826086
+    },
+    "local_video/thumb_poster": {
+      "expected": 92,
+      "direct_found": 87,
+      "group_found": 91,
+      "group_expected": 92,
+      "direct_recall": 0.9456521739130435,
+      "group_recall": 0.9891304347826086
+    },
+    "remote_video": {
+      "expected": 42,
+      "direct_found": 17,
+      "group_found": 21,
+      "group_expected": 42,
+      "direct_recall": 0.40476190476190477,
+      "group_recall": 0.5
+    },
+    "remote_video/thumb_frame": {
+      "expected": 14,
+      "direct_found": 5,
+      "group_found": 7,
+      "group_expected": 14,
+      "direct_recall": 0.35714285714285715,
+      "group_recall": 0.5
+    },
+    "remote_video/thumb_overlay": {
+      "expected": 14,
+      "direct_found": 7,
+      "group_found": 7,
+      "group_expected": 14,
+      "direct_recall": 0.5,
+      "group_recall": 0.5
+    },
+    "remote_video/thumb_poster": {
+      "expected": 14,
+      "direct_found": 5,
+      "group_found": 7,
+      "group_expected": 14,
+      "direct_recall": 0.35714285714285715,
+      "group_recall": 0.5
+    }
+  },
+  "input_transport": {
+    "local/image/canvas_reframe": {
+      "expected": 15,
+      "direct_found": 15,
+      "group_found": 15,
+      "group_expected": 15,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/crop_40": {
+      "expected": 18,
+      "direct_found": 17,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 0.9444444444444444,
+      "group_recall": 1.0
+    },
+    "local/image/crop_60": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/crop_80": {
+      "expected": 16,
+      "direct_found": 16,
+      "group_found": 16,
+      "group_expected": 16,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/crop_watermark_q25": {
+      "expected": 18,
+      "direct_found": 14,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 0.7777777777777778,
+      "group_recall": 1.0
+    },
+    "local/image/exact": {
+      "expected": 14,
+      "direct_found": 14,
+      "group_found": 14,
+      "group_expected": 14,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/jpeg_q25": {
+      "expected": 15,
+      "direct_found": 15,
+      "group_found": 15,
+      "group_expected": 15,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/png_to_jpeg": {
+      "expected": 15,
+      "direct_found": 15,
+      "group_found": 15,
+      "group_expected": 15,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/png_transcode": {
+      "expected": 19,
+      "direct_found": 19,
+      "group_found": 19,
+      "group_expected": 19,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/resize_50": {
+      "expected": 12,
+      "direct_found": 12,
+      "group_found": 12,
+      "group_expected": 12,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/subtle_hue": {
+      "expected": 19,
+      "direct_found": 19,
+      "group_found": 19,
+      "group_expected": 19,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/subtle_relight": {
+      "expected": 18,
+      "direct_found": 18,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/thumb_320": {
+      "expected": 14,
+      "direct_found": 14,
+      "group_found": 14,
+      "group_expected": 14,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/thumb_frame": {
+      "expected": 73,
+      "direct_found": 69,
+      "group_found": 72,
+      "group_expected": 73,
+      "direct_recall": 0.9452054794520548,
+      "group_recall": 0.9863013698630136
+    },
+    "local/image/thumb_overlay": {
+      "expected": 75,
+      "direct_found": 58,
+      "group_found": 74,
+      "group_expected": 75,
+      "direct_recall": 0.7733333333333333,
+      "group_recall": 0.9866666666666667
+    },
+    "local/image/thumb_poster": {
+      "expected": 87,
+      "direct_found": 82,
+      "group_found": 86,
+      "group_expected": 87,
+      "direct_recall": 0.9425287356321839,
+      "group_recall": 0.9885057471264368
+    },
+    "local/image/variant_hue": {
+      "expected": 144,
+      "direct_found": 123,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.8541666666666666,
+      "group_recall": 0.0
+    },
+    "local/image/variant_light_dark": {
+      "expected": 141,
+      "direct_found": 135,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.9574468085106383,
+      "group_recall": 0.0
+    },
+    "local/image/variant_reframe": {
+      "expected": 92,
+      "direct_found": 89,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.967391304347826,
+      "group_recall": 0.0
+    },
+    "local/image/variant_relit": {
+      "expected": 118,
+      "direct_found": 118,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 1.0,
+      "group_recall": 0.0
+    },
+    "local/image/watermark": {
+      "expected": 16,
+      "direct_found": 16,
+      "group_found": 16,
+      "group_expected": 16,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/crlf": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/exact": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/excerpt_10": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/excerpt_20": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/excerpt_30": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/light_edits": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/rewrapped": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/video/clip_10s": {
+      "expected": 19,
+      "direct_found": 16,
+      "group_found": 18,
+      "group_expected": 19,
+      "direct_recall": 0.8421052631578947,
+      "group_recall": 0.9473684210526315
+    },
+    "local/video/clip_25pct": {
+      "expected": 13,
+      "direct_found": 11,
+      "group_found": 13,
+      "group_expected": 13,
+      "direct_recall": 0.8461538461538461,
+      "group_recall": 1.0
+    },
+    "local/video/exact": {
+      "expected": 18,
+      "direct_found": 18,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/video/letterboxed": {
+      "expected": 18,
+      "direct_found": 18,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/video/low_bitrate_360p": {
+      "expected": 18,
+      "direct_found": 17,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 0.9444444444444444,
+      "group_recall": 1.0
+    },
+    "local/video/variant_hue": {
+      "expected": 37,
+      "direct_found": 16,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.43243243243243246,
+      "group_recall": 0.0
+    },
+    "local/video/watermark": {
+      "expected": 13,
+      "direct_found": 9,
+      "group_found": 13,
+      "group_expected": 13,
+      "direct_recall": 0.6923076923076923,
+      "group_recall": 1.0
+    },
+    "remote/image/canvas_reframe": {
+      "expected": 5,
+      "direct_found": 5,
+      "group_found": 5,
+      "group_expected": 5,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_40": {
+      "expected": 2,
+      "direct_found": 2,
+      "group_found": 2,
+      "group_expected": 2,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_60": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_80": {
+      "expected": 4,
+      "direct_found": 4,
+      "group_found": 4,
+      "group_expected": 4,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_watermark_q25": {
+      "expected": 2,
+      "direct_found": 2,
+      "group_found": 2,
+      "group_expected": 2,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/exact": {
+      "expected": 6,
+      "direct_found": 6,
+      "group_found": 6,
+      "group_expected": 6,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/jpeg_q25": {
+      "expected": 5,
+      "direct_found": 5,
+      "group_found": 5,
+      "group_expected": 5,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/png_to_jpeg": {
+      "expected": 5,
+      "direct_found": 5,
+      "group_found": 5,
+      "group_expected": 5,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/png_transcode": {
+      "expected": 1,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 1,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/resize_50": {
+      "expected": 8,
+      "direct_found": 8,
+      "group_found": 8,
+      "group_expected": 8,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/subtle_hue": {
+      "expected": 1,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 1,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/subtle_relight": {
+      "expected": 2,
+      "direct_found": 2,
+      "group_found": 2,
+      "group_expected": 2,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/thumb_320": {
+      "expected": 6,
+      "direct_found": 6,
+      "group_found": 6,
+      "group_expected": 6,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/thumb_frame": {
+      "expected": 33,
+      "direct_found": 23,
+      "group_found": 26,
+      "group_expected": 33,
+      "direct_recall": 0.696969696969697,
+      "group_recall": 0.7878787878787878
+    },
+    "remote/image/thumb_overlay": {
+      "expected": 31,
+      "direct_found": 24,
+      "group_found": 24,
+      "group_expected": 31,
+      "direct_recall": 0.7741935483870968,
+      "group_recall": 0.7741935483870968
+    },
+    "remote/image/thumb_poster": {
+      "expected": 19,
+      "direct_found": 10,
+      "group_found": 12,
+      "group_expected": 19,
+      "direct_recall": 0.5263157894736842,
+      "group_recall": 0.631578947368421
+    },
+    "remote/image/variant_hue": {
+      "expected": 95,
+      "direct_found": 81,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.8526315789473684,
+      "group_recall": 0.0
+    },
+    "remote/image/variant_light_dark": {
+      "expected": 79,
+      "direct_found": 77,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.9746835443037974,
+      "group_recall": 0.0
+    },
+    "remote/image/variant_reframe": {
+      "expected": 88,
+      "direct_found": 77,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.875,
+      "group_recall": 0.0
+    },
+    "remote/image/variant_relit": {
+      "expected": 62,
+      "direct_found": 62,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 1.0,
+      "group_recall": 0.0
+    },
+    "remote/image/watermark": {
+      "expected": 4,
+      "direct_found": 4,
+      "group_found": 4,
+      "group_expected": 4,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/video/clip_10s": {
+      "expected": 1,
+      "direct_found": 0,
+      "group_found": 0,
+      "group_expected": 1,
+      "direct_recall": 0.0,
+      "group_recall": 0.0
+    },
+    "remote/video/clip_25pct": {
+      "expected": 7,
+      "direct_found": 0,
+      "group_found": 0,
+      "group_expected": 7,
+      "direct_recall": 0.0,
+      "group_recall": 0.0
+    },
+    "remote/video/exact": {
+      "expected": 2,
+      "direct_found": 0,
+      "group_found": 2,
+      "group_expected": 2,
+      "direct_recall": 0.0,
+      "group_recall": 1.0
+    },
+    "remote/video/letterboxed": {
+      "expected": 2,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 2,
+      "direct_recall": 0.5,
+      "group_recall": 0.5
+    },
+    "remote/video/low_bitrate_360p": {
+      "expected": 2,
+      "direct_found": 0,
+      "group_found": 0,
+      "group_expected": 2,
+      "direct_recall": 0.0,
+      "group_recall": 0.0
+    },
+    "remote/video/variant_hue": {
+      "expected": 23,
+      "direct_found": 0,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.0,
+      "group_recall": 0.0
+    },
+    "remote/video/watermark": {
+      "expected": 7,
+      "direct_found": 2,
+      "group_found": 4,
+      "group_expected": 7,
+      "direct_recall": 0.2857142857142857,
+      "group_recall": 0.5714285714285714
+    }
+  },
+  "misses": [
+    {
+      "a": "media/image/000_thumb_320.jpg",
+      "b": "media/image/000_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/003_variant_light_dark.jpg",
+      "b": "media/image/003_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/006_thumb_320.jpg",
+      "b": "media/image/006_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/006_variant_light_dark.jpg",
+      "b": "media/image/006_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_original.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_exact.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_resize_50.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_resize_50.jpg",
+      "b": "media/image/009_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_thumb_320.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_thumb_320.jpg",
+      "b": "media/image/009_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_jpeg_q25.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_png_transcode.png",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_png_to_jpeg.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_subtle_relight.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_subtle_hue.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_variant_hue.jpg",
+      "b": "media/image/009_variant_relit.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_variant_light_dark.jpg",
+      "b": "media/image/009_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/010_original.jpg",
+      "b": "media/image/010_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/010_exact.jpg",
+      "b": "media/image/010_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/010_resize_50.jpg",
+      "b": "media/image/010_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    }
+  ],
+  "direct_misses": [
+    {
+      "a": "media/image/000_thumb_320.jpg",
+      "b": "media/image/000_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_crop_watermark_q25.jpg",
+      "b": "media/image/001_original.jpg",
+      "relation": "crop_of",
+      "score": null
+    },
+    {
+      "a": "media/image/003_crop_watermark_q25.jpg",
+      "b": "media/image/003_original.jpg",
+      "relation": "crop_of",
+      "score": null
+    },
+    {
+      "a": "media/image/003_variant_light_dark.jpg",
+      "b": "media/image/003_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/006_thumb_320.jpg",
+      "b": "media/image/006_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/006_variant_light_dark.jpg",
+      "b": "media/image/006_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_original.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_exact.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_resize_50.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_resize_50.jpg",
+      "b": "media/image/009_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_thumb_320.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_thumb_320.jpg",
+      "b": "media/image/009_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_jpeg_q25.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_png_transcode.png",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_png_to_jpeg.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_subtle_relight.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_subtle_hue.jpg",
+      "b": "media/image/009_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_variant_hue.jpg",
+      "b": "media/image/009_variant_relit.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/009_variant_light_dark.jpg",
+      "b": "media/image/009_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/010_original.jpg",
+      "b": "media/image/010_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    }
+  ],
+  "false_positives": [],
+  "group_false_positives": [],
+  "wrong_directions": [],
+  "hard_negative_false_positives": 0,
+  "hard_negative_group_false_positives": 0,
+  "ignored_sibling_predictions": 2184
+}

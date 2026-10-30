@@ -1,0 +1,37 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99.1"
+license = "MIT"
+repository = "https://github.com/AdeAnima/eidolon"
+homepage = "https://github.com/AdeAnima/eidolon"
+readme = "README.md"
+keywords = ["duplicates", "images", "video", "cli", "similarity"]
+categories = ["command-line-utilities", "multimedia::images", "multimedia::video"]
+
+[workspace.lints.rust]
+# deny, not forbid: only eidolon-image's macOS ImageIO FFI module opts in with a module-level allow.
+unsafe_code = "deny"
+missing_docs = "warn"
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+cast_precision_loss = "allow"
+cast_possible_truncation = "allow"
+cast_sign_loss = "allow"
+unwrap_used = "warn"
+dbg_macro = "warn"
+print_stdout = "warn"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+codegen-units = 16

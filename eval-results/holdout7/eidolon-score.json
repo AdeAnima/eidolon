@@ -1,0 +1,2573 @@
+{
+  "version": 1,
+  "overall": {
+    "expected": 870,
+    "group_expected": 870,
+    "direct_found": 732,
+    "group_found": 808,
+    "false_positives": 0,
+    "group_false_positives": 0,
+    "direct_precision": 1.0,
+    "direct_recall": 0.8413793103448276,
+    "group_precision": 1.0,
+    "group_recall": 0.9287356321839081,
+    "relation_accuracy": 0.9986338797814208,
+    "direction_accuracy": 1.0
+  },
+  "variants": {
+    "expected": 877,
+    "group_expected": 0,
+    "direct_found": 711,
+    "group_found": 0,
+    "false_positives": 0,
+    "group_false_positives": 0,
+    "direct_precision": 1.0,
+    "direct_recall": 0.8107183580387686,
+    "group_precision": 1.0,
+    "group_recall": 0.0,
+    "relation_accuracy": 1.0,
+    "direction_accuracy": null
+  },
+  "url_traffic": {
+    "files": {
+      "media/image/000_crop_watermark_q25.jpg": {
+        "size": 38309,
+        "bytes_served": 38309,
+        "requests": null
+      },
+      "media/image/001_crop_watermark_q25.jpg": {
+        "size": 16389,
+        "bytes_served": 16389,
+        "requests": null
+      },
+      "media/image/001_exact.jpg": {
+        "size": 81138,
+        "bytes_served": 81138,
+        "requests": null
+      },
+      "media/image/001_png_transcode.png": {
+        "size": 542957,
+        "bytes_served": 542957,
+        "requests": null
+      },
+      "media/image/001_watermark.jpg": {
+        "size": 90028,
+        "bytes_served": 90028,
+        "requests": null
+      },
+      "media/image/002_jpeg_q25.jpg": {
+        "size": 45605,
+        "bytes_served": 45605,
+        "requests": null
+      },
+      "media/image/002_variant_relit.jpg": {
+        "size": 184395,
+        "bytes_served": 184395,
+        "requests": null
+      },
+      "media/image/002_watermark.jpg": {
+        "size": 201674,
+        "bytes_served": 201674,
+        "requests": null
+      },
+      "media/image/003_crop_80.jpg": {
+        "size": 113720,
+        "bytes_served": 113720,
+        "requests": null
+      },
+      "media/image/003_jpeg_q25.jpg": {
+        "size": 31077,
+        "bytes_served": 31077,
+        "requests": null
+      },
+      "media/image/003_png_to_jpeg.jpg": {
+        "size": 98240,
+        "bytes_served": 98240,
+        "requests": null
+      },
+      "media/image/003_variant_hue.jpg": {
+        "size": 133262,
+        "bytes_served": 133262,
+        "requests": null
+      },
+      "media/image/003_variant_reframe.jpg": {
+        "size": 105383,
+        "bytes_served": 105383,
+        "requests": null
+      },
+      "media/image/003_watermark.jpg": {
+        "size": 119567,
+        "bytes_served": 119567,
+        "requests": null
+      },
+      "media/image/004_crop_40.jpg": {
+        "size": 47568,
+        "bytes_served": 47568,
+        "requests": null
+      },
+      "media/image/004_png_transcode.png": {
+        "size": 727595,
+        "bytes_served": 727595,
+        "requests": null
+      },
+      "media/image/004_resize_50.jpg": {
+        "size": 32324,
+        "bytes_served": 32324,
+        "requests": null
+      },
+      "media/image/004_thumb_320.jpg": {
+        "size": 13859,
+        "bytes_served": 13859,
+        "requests": null
+      },
+      "media/image/005_crop_40.jpg": {
+        "size": 115158,
+        "bytes_served": 115158,
+        "requests": null
+      },
+      "media/image/005_png_to_jpeg.jpg": {
+        "size": 188642,
+        "bytes_served": 188642,
+        "requests": null
+      },
+      "media/image/005_thumb_320.jpg": {
+        "size": 15391,
+        "bytes_served": 15391,
+        "requests": null
+      },
+      "media/image/006_canvas_reframe.jpg": {
+        "size": 91080,
+        "bytes_served": 91080,
+        "requests": null
+      },
+      "media/image/006_png_transcode.png": {
+        "size": 584453,
+        "bytes_served": 584453,
+        "requests": null
+      },
+      "media/image/006_variant_light_dark.jpg": {
+        "size": 113181,
+        "bytes_served": 113181,
+        "requests": null
+      },
+      "media/image/006_watermark.jpg": {
+        "size": 112800,
+        "bytes_served": 112800,
+        "requests": null
+      },
+      "media/image/007_crop_40.jpg": {
+        "size": 48399,
+        "bytes_served": 48399,
+        "requests": null
+      },
+      "media/image/007_jpeg_q25.jpg": {
+        "size": 23175,
+        "bytes_served": 23175,
+        "requests": null
+      },
+      "media/image/007_png_transcode.png": {
+        "size": 475641,
+        "bytes_served": 475641,
+        "requests": null
+      },
+      "media/image/007_resize_50.jpg": {
+        "size": 28500,
+        "bytes_served": 28500,
+        "requests": null
+      },
+      "media/image/007_variant_hue.jpg": {
+        "size": 98111,
+        "bytes_served": 98111,
+        "requests": null
+      },
+      "media/image/007_variant_light_dark.jpg": {
+        "size": 88901,
+        "bytes_served": 88901,
+        "requests": null
+      },
+      "media/image/007_watermark.jpg": {
+        "size": 88369,
+        "bytes_served": 88369,
+        "requests": null
+      },
+      "media/image/008_crop_80.jpg": {
+        "size": 241988,
+        "bytes_served": 241988,
+        "requests": null
+      },
+      "media/image/008_png_transcode.png": {
+        "size": 1125031,
+        "bytes_served": 1125031,
+        "requests": null
+      },
+      "media/image/008_resize_50.jpg": {
+        "size": 72353,
+        "bytes_served": 72353,
+        "requests": null
+      },
+      "media/image/008_subtle_relight.jpg": {
+        "size": 283992,
+        "bytes_served": 283992,
+        "requests": null
+      },
+      "media/image/008_variant_light_dark.jpg": {
+        "size": 279658,
+        "bytes_served": 279658,
+        "requests": null
+      },
+      "media/image/009_crop_60.jpg": {
+        "size": 143170,
+        "bytes_served": 143170,
+        "requests": null
+      },
+      "media/image/009_png_transcode.png": {
+        "size": 904204,
+        "bytes_served": 904204,
+        "requests": null
+      },
+      "media/image/009_subtle_relight.jpg": {
+        "size": 220404,
+        "bytes_served": 220404,
+        "requests": null
+      },
+      "media/image/009_variant_reframe.jpg": {
+        "size": 196820,
+        "bytes_served": 196820,
+        "requests": null
+      },
+      "media/image/010_crop_40.jpg": {
+        "size": 100759,
+        "bytes_served": 100759,
+        "requests": null
+      },
+      "media/image/010_png_to_jpeg.jpg": {
+        "size": 217963,
+        "bytes_served": 217963,
+        "requests": null
+      },
+      "media/image/010_watermark.jpg": {
+        "size": 246801,
+        "bytes_served": 246801,
+        "requests": null
+      },
+      "media/image/011_resize_50.jpg": {
+        "size": 73120,
+        "bytes_served": 73120,
+        "requests": null
+      },
+      "media/image/012_crop_80.jpg": {
+        "size": 132543,
+        "bytes_served": 132543,
+        "requests": null
+      },
+      "media/image/012_subtle_hue.jpg": {
+        "size": 166048,
+        "bytes_served": 166048,
+        "requests": null
+      },
+      "media/image/013_crop_60.jpg": {
+        "size": 159061,
+        "bytes_served": 159061,
+        "requests": null
+      },
+      "media/image/013_crop_watermark_q25.jpg": {
+        "size": 36134,
+        "bytes_served": 36134,
+        "requests": null
+      },
+      "media/image/013_jpeg_q25.jpg": {
+        "size": 60845,
+        "bytes_served": 60845,
+        "requests": null
+      },
+      "media/image/013_png_transcode.png": {
+        "size": 981582,
+        "bytes_served": 981582,
+        "requests": null
+      },
+      "media/image/013_variant_hue.jpg": {
+        "size": 278220,
+        "bytes_served": 278220,
+        "requests": null
+      },
+      "media/image/013_variant_reframe.jpg": {
+        "size": 314942,
+        "bytes_served": 314942,
+        "requests": null
+      },
+      "media/image/014_resize_50.jpg": {
+        "size": 44583,
+        "bytes_served": 44583,
+        "requests": null
+      },
+      "media/image/014_watermark.jpg": {
+        "size": 157217,
+        "bytes_served": 157217,
+        "requests": null
+      },
+      "media/image/015_exact.jpg": {
+        "size": 164154,
+        "bytes_served": 164154,
+        "requests": null
+      },
+      "media/image/015_png_transcode.png": {
+        "size": 803572,
+        "bytes_served": 803572,
+        "requests": null
+      },
+      "media/image/015_variant_light_dark.jpg": {
+        "size": 166822,
+        "bytes_served": 166822,
+        "requests": null
+      },
+      "media/image/016_crop_40.jpg": {
+        "size": 79421,
+        "bytes_served": 79421,
+        "requests": null
+      },
+      "media/image/016_thumb_320.jpg": {
+        "size": 12616,
+        "bytes_served": 12616,
+        "requests": null
+      },
+      "media/image/016_variant_reframe.jpg": {
+        "size": 207318,
+        "bytes_served": 207318,
+        "requests": null
+      },
+      "media/image/017_jpeg_q25.jpg": {
+        "size": 36735,
+        "bytes_served": 36735,
+        "requests": null
+      },
+      "media/image/017_subtle_hue.jpg": {
+        "size": 145098,
+        "bytes_served": 145098,
+        "requests": null
+      },
+      "media/image/017_variant_reframe.jpg": {
+        "size": 104956,
+        "bytes_served": 104956,
+        "requests": null
+      },
+      "media/image/017_variant_relit.jpg": {
+        "size": 110510,
+        "bytes_served": 110510,
+        "requests": null
+      },
+      "media/image/018_crop_60.jpg": {
+        "size": 109712,
+        "bytes_served": 109712,
+        "requests": null
+      },
+      "media/image/018_jpeg_q25.jpg": {
+        "size": 35751,
+        "bytes_served": 35751,
+        "requests": null
+      },
+      "media/image/018_subtle_relight.jpg": {
+        "size": 155607,
+        "bytes_served": 155607,
+        "requests": null
+      },
+      "media/image/018_variant_light_dark.jpg": {
+        "size": 157656,
+        "bytes_served": 157656,
+        "requests": null
+      },
+      "media/image/019_exact.jpg": {
+        "size": 116870,
+        "bytes_served": 116870,
+        "requests": null
+      },
+      "media/image/019_jpeg_q25.jpg": {
+        "size": 30410,
+        "bytes_served": 30410,
+        "requests": null
+      },
+      "media/image/019_png_transcode.png": {
+        "size": 585555,
+        "bytes_served": 585555,
+        "requests": null
+      },
+      "media/image/video_001_thumb_frame.jpg": {
+        "size": 10298,
+        "bytes_served": 10298,
+        "requests": null
+      },
+      "media/image/video_002_thumb_frame.jpg": {
+        "size": 20490,
+        "bytes_served": 20490,
+        "requests": null
+      },
+      "media/image/video_003_thumb_frame.jpg": {
+        "size": 16269,
+        "bytes_served": 16269,
+        "requests": null
+      },
+      "media/image/video_006_thumb_frame.jpg": {
+        "size": 5993,
+        "bytes_served": 5993,
+        "requests": null
+      },
+      "media/image/video_006_thumb_overlay.jpg": {
+        "size": 10857,
+        "bytes_served": 10857,
+        "requests": null
+      },
+      "media/image/video_006_thumb_poster.jpg": {
+        "size": 70001,
+        "bytes_served": 70001,
+        "requests": null
+      },
+      "media/image/video_013_thumb_poster.jpg": {
+        "size": 68711,
+        "bytes_served": 68711,
+        "requests": null
+      },
+      "media/image/video_014_thumb_overlay.jpg": {
+        "size": 8393,
+        "bytes_served": 8393,
+        "requests": null
+      },
+      "media/image/video_015_thumb_frame.jpg": {
+        "size": 9364,
+        "bytes_served": 9364,
+        "requests": null
+      },
+      "media/image/video_016_thumb_frame.jpg": {
+        "size": 10605,
+        "bytes_served": 10605,
+        "requests": null
+      },
+      "media/image/video_017_thumb_overlay.jpg": {
+        "size": 21530,
+        "bytes_served": 21530,
+        "requests": null
+      },
+      "media/image/video_019_thumb_frame.jpg": {
+        "size": 5622,
+        "bytes_served": 5622,
+        "requests": null
+      },
+      "media/video/000_exact.webm": {
+        "size": 59850769,
+        "bytes_served": 59850769,
+        "requests": null
+      },
+      "media/video/000_letterboxed.mp4": {
+        "size": 33952804,
+        "bytes_served": 8475684,
+        "requests": null
+      },
+      "media/video/000_low_bitrate_360p.mp4": {
+        "size": 1802787,
+        "bytes_served": 442915,
+        "requests": null
+      },
+      "media/video/000_variant_hue.mp4": {
+        "size": 62592322,
+        "bytes_served": 15635778,
+        "requests": null
+      },
+      "media/video/001_low_bitrate_360p.mp4": {
+        "size": 782401,
+        "bytes_served": 192577,
+        "requests": null
+      },
+      "media/video/002_variant_hue.mp4": {
+        "size": 14757684,
+        "bytes_served": 3649332,
+        "requests": null
+      },
+      "media/video/004_clip_10s.mp4": {
+        "size": 7418773,
+        "bytes_served": 1831829,
+        "requests": null
+      },
+      "media/video/004_clip_25pct.mp4": {
+        "size": 18244867,
+        "bytes_served": 4498691,
+        "requests": null
+      },
+      "media/video/005_clip_10s.mp4": {
+        "size": 2239275,
+        "bytes_served": 551723,
+        "requests": null
+      },
+      "media/video/005_low_bitrate_360p.mp4": {
+        "size": 596565,
+        "bytes_served": 137813,
+        "requests": null
+      },
+      "media/video/006_watermark.mp4": {
+        "size": 12372945,
+        "bytes_served": 3083217,
+        "requests": null
+      },
+      "media/video/008_watermark.mp4": {
+        "size": 14282830,
+        "bytes_served": 3567694,
+        "requests": null
+      },
+      "media/video/010_low_bitrate_360p.mp4": {
+        "size": 317729,
+        "bytes_served": 71969,
+        "requests": null
+      },
+      "media/video/010_variant_hue.mp4": {
+        "size": 5261344,
+        "bytes_served": 1296416,
+        "requests": null
+      },
+      "media/video/011_clip_10s.mp4": {
+        "size": 2801817,
+        "bytes_served": 688281,
+        "requests": null
+      },
+      "media/video/011_letterboxed.mp4": {
+        "size": 20682468,
+        "bytes_served": 5166820,
+        "requests": null
+      },
+      "media/video/011_low_bitrate_360p.mp4": {
+        "size": 1622436,
+        "bytes_served": 393636,
+        "requests": null
+      },
+      "media/video/011_watermark.mp4": {
+        "size": 37183208,
+        "bytes_served": 9264872,
+        "requests": null
+      },
+      "media/video/012_low_bitrate_360p.mp4": {
+        "size": 1297725,
+        "bytes_served": 314685,
+        "requests": null
+      },
+      "media/video/013_clip_25pct.mp4": {
+        "size": 2151312,
+        "bytes_served": 529296,
+        "requests": null
+      },
+      "media/video/013_low_bitrate_360p.mp4": {
+        "size": 528601,
+        "bytes_served": 119001,
+        "requests": null
+      },
+      "media/video/013_watermark.mp4": {
+        "size": 8164027,
+        "bytes_served": 103099,
+        "requests": null
+      },
+      "media/video/014_low_bitrate_360p.mp4": {
+        "size": 672690,
+        "bytes_served": 164786,
+        "requests": null
+      },
+      "media/video/016_clip_25pct.mp4": {
+        "size": 2012528,
+        "bytes_served": 472432,
+        "requests": null
+      },
+      "media/video/016_letterboxed.mp4": {
+        "size": 3959456,
+        "bytes_served": 60064,
+        "requests": null
+      },
+      "media/video/018_watermark.mp4": {
+        "size": 5376585,
+        "bytes_served": 68169,
+        "requests": null
+      },
+      "media/video/019_clip_25pct.mp4": {
+        "size": 2628047,
+        "bytes_served": 645583,
+        "requests": null
+      },
+      "media/video/019_low_bitrate_360p.mp4": {
+        "size": 707489,
+        "bytes_served": 166817,
+        "requests": null
+      }
+    },
+    "bytes_served": 135857173,
+    "full_remote_bytes": 338674709,
+    "bytes_fetched_ratio": 0.4011435439072009
+  },
+  "served_traffic": {
+    "files": {
+      "media/image/000_crop_watermark_q25.jpg": {
+        "size": 38309,
+        "bytes_served": 38309,
+        "requests": 2
+      },
+      "media/image/001_crop_watermark_q25.jpg": {
+        "size": 16389,
+        "bytes_served": 16389,
+        "requests": 2
+      },
+      "media/image/001_exact.jpg": {
+        "size": 81138,
+        "bytes_served": 81138,
+        "requests": 2
+      },
+      "media/image/001_png_transcode.png": {
+        "size": 542957,
+        "bytes_served": 542957,
+        "requests": 2
+      },
+      "media/image/001_watermark.jpg": {
+        "size": 90028,
+        "bytes_served": 90028,
+        "requests": 2
+      },
+      "media/image/002_jpeg_q25.jpg": {
+        "size": 45605,
+        "bytes_served": 45605,
+        "requests": 2
+      },
+      "media/image/002_variant_relit.jpg": {
+        "size": 184395,
+        "bytes_served": 184395,
+        "requests": 2
+      },
+      "media/image/002_watermark.jpg": {
+        "size": 201674,
+        "bytes_served": 201674,
+        "requests": 2
+      },
+      "media/image/003_crop_80.jpg": {
+        "size": 113720,
+        "bytes_served": 113720,
+        "requests": 2
+      },
+      "media/image/003_jpeg_q25.jpg": {
+        "size": 31077,
+        "bytes_served": 31077,
+        "requests": 2
+      },
+      "media/image/003_png_to_jpeg.jpg": {
+        "size": 98240,
+        "bytes_served": 98240,
+        "requests": 2
+      },
+      "media/image/003_variant_hue.jpg": {
+        "size": 133262,
+        "bytes_served": 133262,
+        "requests": 2
+      },
+      "media/image/003_variant_reframe.jpg": {
+        "size": 105383,
+        "bytes_served": 105383,
+        "requests": 2
+      },
+      "media/image/003_watermark.jpg": {
+        "size": 119567,
+        "bytes_served": 119567,
+        "requests": 2
+      },
+      "media/image/004_crop_40.jpg": {
+        "size": 47568,
+        "bytes_served": 47568,
+        "requests": 2
+      },
+      "media/image/004_png_transcode.png": {
+        "size": 727595,
+        "bytes_served": 727595,
+        "requests": 2
+      },
+      "media/image/004_resize_50.jpg": {
+        "size": 32324,
+        "bytes_served": 32324,
+        "requests": 2
+      },
+      "media/image/004_thumb_320.jpg": {
+        "size": 13859,
+        "bytes_served": 13859,
+        "requests": 2
+      },
+      "media/image/005_crop_40.jpg": {
+        "size": 115158,
+        "bytes_served": 115158,
+        "requests": 2
+      },
+      "media/image/005_png_to_jpeg.jpg": {
+        "size": 188642,
+        "bytes_served": 188642,
+        "requests": 2
+      },
+      "media/image/005_thumb_320.jpg": {
+        "size": 15391,
+        "bytes_served": 15391,
+        "requests": 2
+      },
+      "media/image/006_canvas_reframe.jpg": {
+        "size": 91080,
+        "bytes_served": 91080,
+        "requests": 2
+      },
+      "media/image/006_png_transcode.png": {
+        "size": 584453,
+        "bytes_served": 584453,
+        "requests": 2
+      },
+      "media/image/006_variant_light_dark.jpg": {
+        "size": 113181,
+        "bytes_served": 113181,
+        "requests": 2
+      },
+      "media/image/006_watermark.jpg": {
+        "size": 112800,
+        "bytes_served": 112800,
+        "requests": 2
+      },
+      "media/image/007_crop_40.jpg": {
+        "size": 48399,
+        "bytes_served": 48399,
+        "requests": 2
+      },
+      "media/image/007_jpeg_q25.jpg": {
+        "size": 23175,
+        "bytes_served": 23175,
+        "requests": 2
+      },
+      "media/image/007_png_transcode.png": {
+        "size": 475641,
+        "bytes_served": 475641,
+        "requests": 2
+      },
+      "media/image/007_resize_50.jpg": {
+        "size": 28500,
+        "bytes_served": 28500,
+        "requests": 2
+      },
+      "media/image/007_variant_hue.jpg": {
+        "size": 98111,
+        "bytes_served": 98111,
+        "requests": 2
+      },
+      "media/image/007_variant_light_dark.jpg": {
+        "size": 88901,
+        "bytes_served": 88901,
+        "requests": 2
+      },
+      "media/image/007_watermark.jpg": {
+        "size": 88369,
+        "bytes_served": 88369,
+        "requests": 2
+      },
+      "media/image/008_crop_80.jpg": {
+        "size": 241988,
+        "bytes_served": 241988,
+        "requests": 2
+      },
+      "media/image/008_png_transcode.png": {
+        "size": 1125031,
+        "bytes_served": 1125031,
+        "requests": 2
+      },
+      "media/image/008_resize_50.jpg": {
+        "size": 72353,
+        "bytes_served": 72353,
+        "requests": 2
+      },
+      "media/image/008_subtle_relight.jpg": {
+        "size": 283992,
+        "bytes_served": 283992,
+        "requests": 2
+      },
+      "media/image/008_variant_light_dark.jpg": {
+        "size": 279658,
+        "bytes_served": 279658,
+        "requests": 2
+      },
+      "media/image/009_crop_60.jpg": {
+        "size": 143170,
+        "bytes_served": 143170,
+        "requests": 2
+      },
+      "media/image/009_png_transcode.png": {
+        "size": 904204,
+        "bytes_served": 904204,
+        "requests": 2
+      },
+      "media/image/009_subtle_relight.jpg": {
+        "size": 220404,
+        "bytes_served": 220404,
+        "requests": 2
+      },
+      "media/image/009_variant_reframe.jpg": {
+        "size": 196820,
+        "bytes_served": 196820,
+        "requests": 2
+      },
+      "media/image/010_crop_40.jpg": {
+        "size": 100759,
+        "bytes_served": 100759,
+        "requests": 2
+      },
+      "media/image/010_png_to_jpeg.jpg": {
+        "size": 217963,
+        "bytes_served": 217963,
+        "requests": 2
+      },
+      "media/image/010_watermark.jpg": {
+        "size": 246801,
+        "bytes_served": 246801,
+        "requests": 2
+      },
+      "media/image/011_resize_50.jpg": {
+        "size": 73120,
+        "bytes_served": 73120,
+        "requests": 2
+      },
+      "media/image/012_crop_80.jpg": {
+        "size": 132543,
+        "bytes_served": 132543,
+        "requests": 2
+      },
+      "media/image/012_subtle_hue.jpg": {
+        "size": 166048,
+        "bytes_served": 166048,
+        "requests": 2
+      },
+      "media/image/013_crop_60.jpg": {
+        "size": 159061,
+        "bytes_served": 159061,
+        "requests": 2
+      },
+      "media/image/013_crop_watermark_q25.jpg": {
+        "size": 36134,
+        "bytes_served": 36134,
+        "requests": 2
+      },
+      "media/image/013_jpeg_q25.jpg": {
+        "size": 60845,
+        "bytes_served": 60845,
+        "requests": 2
+      },
+      "media/image/013_png_transcode.png": {
+        "size": 981582,
+        "bytes_served": 981582,
+        "requests": 2
+      },
+      "media/image/013_variant_hue.jpg": {
+        "size": 278220,
+        "bytes_served": 278220,
+        "requests": 2
+      },
+      "media/image/013_variant_reframe.jpg": {
+        "size": 314942,
+        "bytes_served": 314942,
+        "requests": 2
+      },
+      "media/image/014_resize_50.jpg": {
+        "size": 44583,
+        "bytes_served": 44583,
+        "requests": 2
+      },
+      "media/image/014_watermark.jpg": {
+        "size": 157217,
+        "bytes_served": 157217,
+        "requests": 2
+      },
+      "media/image/015_exact.jpg": {
+        "size": 164154,
+        "bytes_served": 164154,
+        "requests": 2
+      },
+      "media/image/015_png_transcode.png": {
+        "size": 803572,
+        "bytes_served": 803572,
+        "requests": 2
+      },
+      "media/image/015_variant_light_dark.jpg": {
+        "size": 166822,
+        "bytes_served": 166822,
+        "requests": 2
+      },
+      "media/image/016_crop_40.jpg": {
+        "size": 79421,
+        "bytes_served": 79421,
+        "requests": 2
+      },
+      "media/image/016_thumb_320.jpg": {
+        "size": 12616,
+        "bytes_served": 12616,
+        "requests": 2
+      },
+      "media/image/016_variant_reframe.jpg": {
+        "size": 207318,
+        "bytes_served": 207318,
+        "requests": 2
+      },
+      "media/image/017_jpeg_q25.jpg": {
+        "size": 36735,
+        "bytes_served": 36735,
+        "requests": 2
+      },
+      "media/image/017_subtle_hue.jpg": {
+        "size": 145098,
+        "bytes_served": 145098,
+        "requests": 2
+      },
+      "media/image/017_variant_reframe.jpg": {
+        "size": 104956,
+        "bytes_served": 104956,
+        "requests": 2
+      },
+      "media/image/017_variant_relit.jpg": {
+        "size": 110510,
+        "bytes_served": 110510,
+        "requests": 2
+      },
+      "media/image/018_crop_60.jpg": {
+        "size": 109712,
+        "bytes_served": 109712,
+        "requests": 2
+      },
+      "media/image/018_jpeg_q25.jpg": {
+        "size": 35751,
+        "bytes_served": 35751,
+        "requests": 2
+      },
+      "media/image/018_subtle_relight.jpg": {
+        "size": 155607,
+        "bytes_served": 155607,
+        "requests": 2
+      },
+      "media/image/018_variant_light_dark.jpg": {
+        "size": 157656,
+        "bytes_served": 157656,
+        "requests": 2
+      },
+      "media/image/019_exact.jpg": {
+        "size": 116870,
+        "bytes_served": 116870,
+        "requests": 2
+      },
+      "media/image/019_jpeg_q25.jpg": {
+        "size": 30410,
+        "bytes_served": 30410,
+        "requests": 2
+      },
+      "media/image/019_png_transcode.png": {
+        "size": 585555,
+        "bytes_served": 585555,
+        "requests": 2
+      },
+      "media/image/video_001_thumb_frame.jpg": {
+        "size": 10298,
+        "bytes_served": 10298,
+        "requests": 2
+      },
+      "media/image/video_002_thumb_frame.jpg": {
+        "size": 20490,
+        "bytes_served": 20490,
+        "requests": 2
+      },
+      "media/image/video_003_thumb_frame.jpg": {
+        "size": 16269,
+        "bytes_served": 16269,
+        "requests": 2
+      },
+      "media/image/video_006_thumb_frame.jpg": {
+        "size": 5993,
+        "bytes_served": 5993,
+        "requests": 2
+      },
+      "media/image/video_006_thumb_overlay.jpg": {
+        "size": 10857,
+        "bytes_served": 10857,
+        "requests": 2
+      },
+      "media/image/video_006_thumb_poster.jpg": {
+        "size": 70001,
+        "bytes_served": 70001,
+        "requests": 2
+      },
+      "media/image/video_013_thumb_poster.jpg": {
+        "size": 68711,
+        "bytes_served": 68711,
+        "requests": 2
+      },
+      "media/image/video_014_thumb_overlay.jpg": {
+        "size": 8393,
+        "bytes_served": 8393,
+        "requests": 2
+      },
+      "media/image/video_015_thumb_frame.jpg": {
+        "size": 9364,
+        "bytes_served": 9364,
+        "requests": 2
+      },
+      "media/image/video_016_thumb_frame.jpg": {
+        "size": 10605,
+        "bytes_served": 10605,
+        "requests": 2
+      },
+      "media/image/video_017_thumb_overlay.jpg": {
+        "size": 21530,
+        "bytes_served": 21530,
+        "requests": 2
+      },
+      "media/image/video_019_thumb_frame.jpg": {
+        "size": 5622,
+        "bytes_served": 5622,
+        "requests": 2
+      },
+      "media/video/000_exact.webm": {
+        "size": 59850769,
+        "bytes_served": 59850769,
+        "requests": 2
+      },
+      "media/video/000_letterboxed.mp4": {
+        "size": 33952804,
+        "bytes_served": 8475684,
+        "requests": 237
+      },
+      "media/video/000_low_bitrate_360p.mp4": {
+        "size": 1802787,
+        "bytes_served": 442915,
+        "requests": 27
+      },
+      "media/video/000_variant_hue.mp4": {
+        "size": 62592322,
+        "bytes_served": 15635778,
+        "requests": 253
+      },
+      "media/video/001_low_bitrate_360p.mp4": {
+        "size": 782401,
+        "bytes_served": 192577,
+        "requests": 14
+      },
+      "media/video/002_variant_hue.mp4": {
+        "size": 14757684,
+        "bytes_served": 3649332,
+        "requests": 92
+      },
+      "media/video/004_clip_10s.mp4": {
+        "size": 7418773,
+        "bytes_served": 1831829,
+        "requests": 22
+      },
+      "media/video/004_clip_25pct.mp4": {
+        "size": 18244867,
+        "bytes_served": 4498691,
+        "requests": 60
+      },
+      "media/video/005_clip_10s.mp4": {
+        "size": 2239275,
+        "bytes_served": 551723,
+        "requests": 22
+      },
+      "media/video/005_low_bitrate_360p.mp4": {
+        "size": 596565,
+        "bytes_served": 137813,
+        "requests": 10
+      },
+      "media/video/006_watermark.mp4": {
+        "size": 12372945,
+        "bytes_served": 3083217,
+        "requests": 184
+      },
+      "media/video/008_watermark.mp4": {
+        "size": 14282830,
+        "bytes_served": 3567694,
+        "requests": 100
+      },
+      "media/video/010_low_bitrate_360p.mp4": {
+        "size": 317729,
+        "bytes_served": 71969,
+        "requests": 7
+      },
+      "media/video/010_variant_hue.mp4": {
+        "size": 5261344,
+        "bytes_served": 1296416,
+        "requests": 50
+      },
+      "media/video/011_clip_10s.mp4": {
+        "size": 2801817,
+        "bytes_served": 688281,
+        "requests": 23
+      },
+      "media/video/011_letterboxed.mp4": {
+        "size": 20682468,
+        "bytes_served": 5166820,
+        "requests": 234
+      },
+      "media/video/011_low_bitrate_360p.mp4": {
+        "size": 1622436,
+        "bytes_served": 393636,
+        "requests": 27
+      },
+      "media/video/011_watermark.mp4": {
+        "size": 37183208,
+        "bytes_served": 9264872,
+        "requests": 263
+      },
+      "media/video/012_low_bitrate_360p.mp4": {
+        "size": 1297725,
+        "bytes_served": 314685,
+        "requests": 19
+      },
+      "media/video/013_clip_25pct.mp4": {
+        "size": 2151312,
+        "bytes_served": 529296,
+        "requests": 26
+      },
+      "media/video/013_low_bitrate_360p.mp4": {
+        "size": 528601,
+        "bytes_served": 119001,
+        "requests": 10
+      },
+      "media/video/013_watermark.mp4": {
+        "size": 8164027,
+        "bytes_served": 103099,
+        "requests": 5
+      },
+      "media/video/014_low_bitrate_360p.mp4": {
+        "size": 672690,
+        "bytes_served": 164786,
+        "requests": 13
+      },
+      "media/video/016_clip_25pct.mp4": {
+        "size": 2012528,
+        "bytes_served": 472432,
+        "requests": 14
+      },
+      "media/video/016_letterboxed.mp4": {
+        "size": 3959456,
+        "bytes_served": 60064,
+        "requests": 4
+      },
+      "media/video/018_watermark.mp4": {
+        "size": 5376585,
+        "bytes_served": 68169,
+        "requests": 4
+      },
+      "media/video/019_clip_25pct.mp4": {
+        "size": 2628047,
+        "bytes_served": 645583,
+        "requests": 26
+      },
+      "media/video/019_low_bitrate_360p.mp4": {
+        "size": 707489,
+        "bytes_served": 166817,
+        "requests": 13
+      }
+    },
+    "bytes_served": 135857173,
+    "full_remote_bytes": 338674709,
+    "bytes_fetched_ratio": 0.4011435439072009
+  },
+  "remote_video_mode": "keyframes",
+  "eidolon_args": [
+    "--json",
+    "--thumbnails",
+    "on",
+    "--remote-video-mode",
+    "keyframes",
+    "--stdin",
+    "--null"
+  ],
+  "categories": {
+    "image/canvas_reframe": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/crop_40": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 19,
+      "group_found": 19,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.95,
+      "group_precision": 1.0,
+      "group_recall": 0.95,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/crop_60": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/crop_80": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/crop_watermark_q25": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 16,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/exact": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/jpeg_q25": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/original": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/png_to_jpeg": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/png_transcode": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/resize_50": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/subtle_hue": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/subtle_relight": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/thumb_320": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/thumb_frame": {
+      "expected": 110,
+      "group_expected": 110,
+      "direct_found": 90,
+      "group_found": 96,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8181818181818182,
+      "group_precision": 1.0,
+      "group_recall": 0.8727272727272727,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/thumb_overlay": {
+      "expected": 110,
+      "group_expected": 110,
+      "direct_found": 45,
+      "group_found": 91,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.4090909090909091,
+      "group_precision": 1.0,
+      "group_recall": 0.8272727272727273,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/thumb_poster": {
+      "expected": 110,
+      "group_expected": 110,
+      "direct_found": 90,
+      "group_found": 96,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8181818181818182,
+      "group_precision": 1.0,
+      "group_recall": 0.8727272727272727,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "image/variant": {
+      "expected": 817,
+      "group_expected": 0,
+      "direct_found": 694,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8494492044063647,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "image/variant_hue": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/variant_light_dark": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/variant_reframe": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/variant_relit": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "image/watermark": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/crlf": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/exact": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/excerpt_10": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "text/excerpt_20": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "text/excerpt_30": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "text/light_edits": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/original": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "text/rewrapped": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "text/variant": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "video/clip_10s": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 16,
+      "group_found": 17,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.8,
+      "group_precision": 1.0,
+      "group_recall": 0.85,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "video/clip_25pct": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 14,
+      "group_found": 17,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.7,
+      "group_precision": 1.0,
+      "group_recall": 0.85,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": 1.0
+    },
+    "video/exact": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 1.0,
+      "group_precision": 1.0,
+      "group_recall": 1.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "video/letterboxed": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 18,
+      "group_found": 18,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.9,
+      "group_precision": 1.0,
+      "group_recall": 0.9,
+      "relation_accuracy": 0.9444444444444444,
+      "direction_accuracy": null
+    },
+    "video/low_bitrate_360p": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 11,
+      "group_found": 18,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.55,
+      "group_precision": 1.0,
+      "group_recall": 0.9,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "video/original": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "video/variant": {
+      "expected": 60,
+      "group_expected": 0,
+      "direct_found": 17,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.2833333333333333,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    },
+    "video/variant_hue": {
+      "expected": 0,
+      "group_expected": 0,
+      "direct_found": 0,
+      "group_found": 0,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.0,
+      "group_precision": 1.0,
+      "group_recall": 0.0,
+      "relation_accuracy": null,
+      "direction_accuracy": null
+    },
+    "video/watermark": {
+      "expected": 20,
+      "group_expected": 20,
+      "direct_found": 13,
+      "group_found": 16,
+      "false_positives": 0,
+      "group_false_positives": 0,
+      "direct_precision": 1.0,
+      "direct_recall": 0.65,
+      "group_precision": 1.0,
+      "group_recall": 0.8,
+      "relation_accuracy": 1.0,
+      "direction_accuracy": null
+    }
+  },
+  "frame_of": {
+    "local_video": {
+      "expected": 267,
+      "direct_found": 211,
+      "group_found": 250,
+      "group_expected": 267,
+      "direct_recall": 0.7902621722846442,
+      "group_recall": 0.9363295880149812
+    },
+    "local_video/thumb_frame": {
+      "expected": 89,
+      "direct_found": 84,
+      "group_found": 85,
+      "group_expected": 89,
+      "direct_recall": 0.9438202247191011,
+      "group_recall": 0.9550561797752809
+    },
+    "local_video/thumb_overlay": {
+      "expected": 89,
+      "direct_found": 43,
+      "group_found": 80,
+      "group_expected": 89,
+      "direct_recall": 0.48314606741573035,
+      "group_recall": 0.898876404494382
+    },
+    "local_video/thumb_poster": {
+      "expected": 89,
+      "direct_found": 84,
+      "group_found": 85,
+      "group_expected": 89,
+      "direct_recall": 0.9438202247191011,
+      "group_recall": 0.9550561797752809
+    },
+    "remote_video": {
+      "expected": 63,
+      "direct_found": 14,
+      "group_found": 33,
+      "group_expected": 63,
+      "direct_recall": 0.2222222222222222,
+      "group_recall": 0.5238095238095238
+    },
+    "remote_video/thumb_frame": {
+      "expected": 21,
+      "direct_found": 6,
+      "group_found": 11,
+      "group_expected": 21,
+      "direct_recall": 0.2857142857142857,
+      "group_recall": 0.5238095238095238
+    },
+    "remote_video/thumb_overlay": {
+      "expected": 21,
+      "direct_found": 2,
+      "group_found": 11,
+      "group_expected": 21,
+      "direct_recall": 0.09523809523809523,
+      "group_recall": 0.5238095238095238
+    },
+    "remote_video/thumb_poster": {
+      "expected": 21,
+      "direct_found": 6,
+      "group_found": 11,
+      "group_expected": 21,
+      "direct_recall": 0.2857142857142857,
+      "group_recall": 0.5238095238095238
+    }
+  },
+  "input_transport": {
+    "local/image/canvas_reframe": {
+      "expected": 19,
+      "direct_found": 19,
+      "group_found": 19,
+      "group_expected": 19,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/crop_40": {
+      "expected": 15,
+      "direct_found": 14,
+      "group_found": 14,
+      "group_expected": 15,
+      "direct_recall": 0.9333333333333333,
+      "group_recall": 0.9333333333333333
+    },
+    "local/image/crop_60": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/crop_80": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/crop_watermark_q25": {
+      "expected": 17,
+      "direct_found": 14,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 0.8235294117647058,
+      "group_recall": 1.0
+    },
+    "local/image/exact": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/jpeg_q25": {
+      "expected": 13,
+      "direct_found": 13,
+      "group_found": 13,
+      "group_expected": 13,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/png_to_jpeg": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/png_transcode": {
+      "expected": 11,
+      "direct_found": 11,
+      "group_found": 11,
+      "group_expected": 11,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/resize_50": {
+      "expected": 15,
+      "direct_found": 15,
+      "group_found": 15,
+      "group_expected": 15,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/subtle_hue": {
+      "expected": 18,
+      "direct_found": 18,
+      "group_found": 18,
+      "group_expected": 18,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/subtle_relight": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/thumb_320": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/image/thumb_frame": {
+      "expected": 55,
+      "direct_found": 50,
+      "group_found": 51,
+      "group_expected": 55,
+      "direct_recall": 0.9090909090909091,
+      "group_recall": 0.9272727272727272
+    },
+    "local/image/thumb_overlay": {
+      "expected": 75,
+      "direct_found": 40,
+      "group_found": 66,
+      "group_expected": 75,
+      "direct_recall": 0.5333333333333333,
+      "group_recall": 0.88
+    },
+    "local/image/thumb_poster": {
+      "expected": 82,
+      "direct_found": 77,
+      "group_found": 78,
+      "group_expected": 82,
+      "direct_recall": 0.9390243902439024,
+      "group_recall": 0.9512195121951219
+    },
+    "local/image/variant_hue": {
+      "expected": 164,
+      "direct_found": 100,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.6097560975609756,
+      "group_recall": 0.0
+    },
+    "local/image/variant_light_dark": {
+      "expected": 134,
+      "direct_found": 128,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.9552238805970149,
+      "group_recall": 0.0
+    },
+    "local/image/variant_reframe": {
+      "expected": 109,
+      "direct_found": 95,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.8715596330275229,
+      "group_recall": 0.0
+    },
+    "local/image/variant_relit": {
+      "expected": 130,
+      "direct_found": 129,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.9923076923076923,
+      "group_recall": 0.0
+    },
+    "local/image/watermark": {
+      "expected": 13,
+      "direct_found": 13,
+      "group_found": 13,
+      "group_expected": 13,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/crlf": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/exact": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/excerpt_10": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/excerpt_20": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/excerpt_30": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/light_edits": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/text/rewrapped": {
+      "expected": 20,
+      "direct_found": 20,
+      "group_found": 20,
+      "group_expected": 20,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/video/clip_10s": {
+      "expected": 17,
+      "direct_found": 16,
+      "group_found": 16,
+      "group_expected": 17,
+      "direct_recall": 0.9411764705882353,
+      "group_recall": 0.9411764705882353
+    },
+    "local/video/clip_25pct": {
+      "expected": 16,
+      "direct_found": 14,
+      "group_found": 16,
+      "group_expected": 16,
+      "direct_recall": 0.875,
+      "group_recall": 1.0
+    },
+    "local/video/exact": {
+      "expected": 19,
+      "direct_found": 19,
+      "group_found": 19,
+      "group_expected": 19,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/video/letterboxed": {
+      "expected": 17,
+      "direct_found": 17,
+      "group_found": 17,
+      "group_expected": 17,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "local/video/low_bitrate_360p": {
+      "expected": 11,
+      "direct_found": 10,
+      "group_found": 11,
+      "group_expected": 11,
+      "direct_recall": 0.9090909090909091,
+      "group_recall": 1.0
+    },
+    "local/video/variant_hue": {
+      "expected": 44,
+      "direct_found": 17,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.38636363636363635,
+      "group_recall": 0.0
+    },
+    "local/video/watermark": {
+      "expected": 15,
+      "direct_found": 12,
+      "group_found": 15,
+      "group_expected": 15,
+      "direct_recall": 0.8,
+      "group_recall": 1.0
+    },
+    "remote/image/canvas_reframe": {
+      "expected": 1,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 1,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_40": {
+      "expected": 5,
+      "direct_found": 5,
+      "group_found": 5,
+      "group_expected": 5,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_60": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_80": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/crop_watermark_q25": {
+      "expected": 3,
+      "direct_found": 2,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 0.6666666666666666,
+      "group_recall": 1.0
+    },
+    "remote/image/exact": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/jpeg_q25": {
+      "expected": 7,
+      "direct_found": 7,
+      "group_found": 7,
+      "group_expected": 7,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/png_to_jpeg": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/png_transcode": {
+      "expected": 9,
+      "direct_found": 9,
+      "group_found": 9,
+      "group_expected": 9,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/resize_50": {
+      "expected": 5,
+      "direct_found": 5,
+      "group_found": 5,
+      "group_expected": 5,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/subtle_hue": {
+      "expected": 2,
+      "direct_found": 2,
+      "group_found": 2,
+      "group_expected": 2,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/subtle_relight": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/thumb_320": {
+      "expected": 3,
+      "direct_found": 3,
+      "group_found": 3,
+      "group_expected": 3,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/image/thumb_frame": {
+      "expected": 55,
+      "direct_found": 40,
+      "group_found": 45,
+      "group_expected": 55,
+      "direct_recall": 0.7272727272727273,
+      "group_recall": 0.8181818181818182
+    },
+    "remote/image/thumb_overlay": {
+      "expected": 35,
+      "direct_found": 5,
+      "group_found": 25,
+      "group_expected": 35,
+      "direct_recall": 0.14285714285714285,
+      "group_recall": 0.7142857142857143
+    },
+    "remote/image/thumb_poster": {
+      "expected": 28,
+      "direct_found": 13,
+      "group_found": 18,
+      "group_expected": 28,
+      "direct_recall": 0.4642857142857143,
+      "group_recall": 0.6428571428571429
+    },
+    "remote/image/variant_hue": {
+      "expected": 73,
+      "direct_found": 54,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.7397260273972602,
+      "group_recall": 0.0
+    },
+    "remote/image/variant_light_dark": {
+      "expected": 86,
+      "direct_found": 79,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.9186046511627907,
+      "group_recall": 0.0
+    },
+    "remote/image/variant_reframe": {
+      "expected": 71,
+      "direct_found": 59,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.8309859154929577,
+      "group_recall": 0.0
+    },
+    "remote/image/variant_relit": {
+      "expected": 50,
+      "direct_found": 50,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 1.0,
+      "group_recall": 0.0
+    },
+    "remote/image/watermark": {
+      "expected": 7,
+      "direct_found": 7,
+      "group_found": 7,
+      "group_expected": 7,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/video/clip_10s": {
+      "expected": 3,
+      "direct_found": 0,
+      "group_found": 1,
+      "group_expected": 3,
+      "direct_recall": 0.0,
+      "group_recall": 0.3333333333333333
+    },
+    "remote/video/clip_25pct": {
+      "expected": 4,
+      "direct_found": 0,
+      "group_found": 1,
+      "group_expected": 4,
+      "direct_recall": 0.0,
+      "group_recall": 0.25
+    },
+    "remote/video/exact": {
+      "expected": 1,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 1,
+      "direct_recall": 1.0,
+      "group_recall": 1.0
+    },
+    "remote/video/letterboxed": {
+      "expected": 3,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 3,
+      "direct_recall": 0.3333333333333333,
+      "group_recall": 0.3333333333333333
+    },
+    "remote/video/low_bitrate_360p": {
+      "expected": 9,
+      "direct_found": 1,
+      "group_found": 7,
+      "group_expected": 9,
+      "direct_recall": 0.1111111111111111,
+      "group_recall": 0.7777777777777778
+    },
+    "remote/video/variant_hue": {
+      "expected": 16,
+      "direct_found": 0,
+      "group_found": 0,
+      "group_expected": 0,
+      "direct_recall": 0.0,
+      "group_recall": 0.0
+    },
+    "remote/video/watermark": {
+      "expected": 5,
+      "direct_found": 1,
+      "group_found": 1,
+      "group_expected": 5,
+      "direct_recall": 0.2,
+      "group_recall": 0.2
+    }
+  },
+  "misses": [
+    {
+      "a": "media/image/000_thumb_320.jpg",
+      "b": "media/image/000_variant_light_dark.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_original.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_exact.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_resize_50.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_resize_50.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_thumb_320.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_thumb_320.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_jpeg_q25.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_png_transcode.png",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_png_to_jpeg.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_subtle_relight.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_subtle_hue.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_hue.jpg",
+      "b": "media/image/001_variant_light_dark.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_hue.jpg",
+      "b": "media/image/001_variant_relit.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_hue.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_light_dark.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_original.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_exact.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_resize_50.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_thumb_320.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    }
+  ],
+  "direct_misses": [
+    {
+      "a": "media/image/000_thumb_320.jpg",
+      "b": "media/image/000_variant_light_dark.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_crop_watermark_q25.jpg",
+      "b": "media/image/001_original.jpg",
+      "relation": "crop_of",
+      "score": null
+    },
+    {
+      "a": "media/image/001_original.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_exact.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_resize_50.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_resize_50.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_thumb_320.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_thumb_320.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_jpeg_q25.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_png_transcode.png",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_png_to_jpeg.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_subtle_relight.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_subtle_hue.jpg",
+      "b": "media/image/001_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_hue.jpg",
+      "b": "media/image/001_variant_light_dark.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_hue.jpg",
+      "b": "media/image/001_variant_relit.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_hue.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/001_variant_light_dark.jpg",
+      "b": "media/image/001_variant_reframe.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_original.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_exact.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    },
+    {
+      "a": "media/image/004_resize_50.jpg",
+      "b": "media/image/004_variant_hue.jpg",
+      "relation": "variant",
+      "score": null
+    }
+  ],
+  "false_positives": [],
+  "group_false_positives": [],
+  "wrong_directions": [],
+  "hard_negative_false_positives": 0,
+  "hard_negative_group_false_positives": 0,
+  "ignored_sibling_predictions": 2121
+}

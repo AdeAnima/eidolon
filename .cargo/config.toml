@@ -1,0 +1,7 @@
+[env]
+# Defaults only: Homebrew builds and custom prefixes can override every path.
+# opencv crate's build script binds via libclang (Command Line Tools copy).
+LIBCLANG_PATH = { value = "/Library/Developer/CommandLineTools/usr/lib", force = false }
+DYLD_FALLBACK_LIBRARY_PATH = { value = "/Library/Developer/CommandLineTools/usr/lib", force = false }
+# Development runs use Homebrew ONNX Runtime; build.rs also bakes its opt prefix.
+ORT_DYLIB_PATH = { value = "/opt/homebrew/opt/onnxruntime/lib/libonnxruntime.dylib", force = false }

@@ -1,0 +1,23 @@
+# Generate with cargo-about 0.9.3 from Cargo.lock; keep all workspace/target dependencies.
+accepted = [
+  "MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "ISC", "MPL-2.0",
+  "Unicode-3.0", "Zlib", "Apache-2.0 WITH LLVM-exception", "CDLA-Permissive-2.0",
+]
+
+# Workspace code is covered by LICENSE, not the third-party inventory.
+private = { ignore = true }
+
+# ring 0.17.14 changed its licence layout. Preserve its current packaged notices
+# instead of applying cargo-about's workaround for the older OpenSSL/ISC layout.
+[ring.clarify]
+license = "Apache-2.0 AND ISC"
+
+[[ring.clarify.files]]
+path = "LICENSE-BoringSSL"
+license = "Apache-2.0"
+checksum = "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d"
+
+[[ring.clarify.files]]
+path = "LICENSE-other-bits"
+license = "ISC"
+checksum = "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f"

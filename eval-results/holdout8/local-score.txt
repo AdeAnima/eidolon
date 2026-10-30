@@ -1,0 +1,95 @@
+Eidolon args: ["--json", "--thumbnails", "on"]
+FrameOf local_video: direct 288/318 (0.906), group 315/318 (0.991)
+FrameOf local_video/thumb_frame: direct 101/106 (0.953), group 105/106 (0.991)
+FrameOf local_video/thumb_overlay: direct 86/106 (0.811), group 105/106 (0.991)
+FrameOf local_video/thumb_poster: direct 101/106 (0.953), group 105/106 (0.991)
+category                         precision direct-recall group-recall label-accuracy direction-accuracy
+DUPLICATES                       1.000     0.945         0.994        0.999          1.000
+VARIANTS                         1.000     0.885         n/a          1.000          n/a
+image/canvas_reframe             1.000     1.000         1.000        1.000          n/a
+image/crop_40                    1.000     0.950         1.000        1.000          1.000
+image/crop_60                    1.000     1.000         1.000        1.000          1.000
+image/crop_80                    1.000     1.000         1.000        1.000          1.000
+image/crop_watermark_q25         1.000     0.800         1.000        1.000          1.000
+image/exact                      1.000     1.000         1.000        1.000          n/a
+image/jpeg_q25                   1.000     1.000         1.000        1.000          n/a
+image/original                   1.000     n/a           n/a          n/a            n/a
+image/png_to_jpeg                1.000     1.000         1.000        1.000          n/a
+image/png_transcode              1.000     1.000         1.000        1.000          n/a
+image/resize_50                  1.000     1.000         1.000        1.000          n/a
+image/subtle_hue                 1.000     1.000         1.000        1.000          n/a
+image/subtle_relight             1.000     1.000         1.000        1.000          n/a
+image/thumb_320                  1.000     1.000         1.000        1.000          n/a
+image/thumb_frame                1.000     0.953         0.991        1.000          1.000
+image/thumb_overlay              1.000     0.811         0.991        1.000          1.000
+image/thumb_poster               1.000     0.953         0.991        1.000          1.000
+image/variant                    1.000     0.926         n/a          1.000          n/a
+image/variant_hue                1.000     n/a           n/a          n/a            n/a
+image/variant_light_dark         1.000     n/a           n/a          n/a            n/a
+image/variant_reframe            1.000     n/a           n/a          n/a            n/a
+image/variant_relit              1.000     n/a           n/a          n/a            n/a
+image/watermark                  1.000     1.000         1.000        1.000          n/a
+text/crlf                        1.000     1.000         1.000        1.000          n/a
+text/exact                       1.000     1.000         1.000        1.000          n/a
+text/excerpt_10                  1.000     1.000         1.000        1.000          1.000
+text/excerpt_20                  1.000     1.000         1.000        1.000          1.000
+text/excerpt_30                  1.000     1.000         1.000        1.000          1.000
+text/light_edits                 1.000     1.000         1.000        1.000          n/a
+text/original                    1.000     n/a           n/a          n/a            n/a
+text/rewrapped                   1.000     1.000         1.000        1.000          n/a
+text/variant                     1.000     n/a           n/a          n/a            n/a
+video/clip_10s                   1.000     0.850         0.950        1.000          1.000
+video/clip_25pct                 1.000     0.800         0.950        1.000          1.000
+video/exact                      1.000     1.000         1.000        1.000          n/a
+video/letterboxed                1.000     1.000         1.000        1.000          n/a
+video/low_bitrate_360p           1.000     0.950         1.000        0.947          n/a
+video/original                   1.000     n/a           n/a          n/a            n/a
+video/variant                    1.000     0.333         n/a          1.000          n/a
+video/variant_hue                1.000     n/a           n/a          n/a            n/a
+video/watermark                  1.000     0.800         1.000        1.000          n/a
+Group precision: 1.000; hard-negative errors: 0 direct / 0 grouped; ignored sibling predictions: 2263
+Misses (after groups) (top 20):
+  media/image/000_thumb_320.jpg <-> media/image/000_variant_reframe.jpg [variant] None
+  media/image/003_variant_light_dark.jpg <-> media/image/003_variant_reframe.jpg [variant] None
+  media/image/006_thumb_320.jpg <-> media/image/006_variant_reframe.jpg [variant] None
+  media/image/006_variant_light_dark.jpg <-> media/image/006_variant_reframe.jpg [variant] None
+  media/image/009_original.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_exact.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_resize_50.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_resize_50.jpg <-> media/image/009_variant_reframe.jpg [variant] None
+  media/image/009_thumb_320.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_thumb_320.jpg <-> media/image/009_variant_reframe.jpg [variant] None
+  media/image/009_jpeg_q25.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_png_transcode.png <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_png_to_jpeg.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_subtle_relight.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_subtle_hue.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_variant_hue.jpg <-> media/image/009_variant_relit.jpg [variant] None
+  media/image/009_variant_light_dark.jpg <-> media/image/009_variant_reframe.jpg [variant] None
+  media/image/010_original.jpg <-> media/image/010_variant_hue.jpg [variant] None
+  media/image/010_exact.jpg <-> media/image/010_variant_hue.jpg [variant] None
+  media/image/010_resize_50.jpg <-> media/image/010_variant_hue.jpg [variant] None
+Direct misses (includes group-only finds) (top 20):
+  media/image/000_thumb_320.jpg <-> media/image/000_variant_reframe.jpg [variant] None
+  media/image/001_crop_watermark_q25.jpg <-> media/image/001_original.jpg [crop_of] None
+  media/image/003_crop_watermark_q25.jpg <-> media/image/003_original.jpg [crop_of] None
+  media/image/003_variant_light_dark.jpg <-> media/image/003_variant_reframe.jpg [variant] None
+  media/image/006_thumb_320.jpg <-> media/image/006_variant_reframe.jpg [variant] None
+  media/image/006_variant_light_dark.jpg <-> media/image/006_variant_reframe.jpg [variant] None
+  media/image/009_original.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_exact.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_resize_50.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_resize_50.jpg <-> media/image/009_variant_reframe.jpg [variant] None
+  media/image/009_thumb_320.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_thumb_320.jpg <-> media/image/009_variant_reframe.jpg [variant] None
+  media/image/009_jpeg_q25.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_png_transcode.png <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_png_to_jpeg.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_subtle_relight.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_subtle_hue.jpg <-> media/image/009_variant_hue.jpg [variant] None
+  media/image/009_variant_hue.jpg <-> media/image/009_variant_relit.jpg [variant] None
+  media/image/009_variant_light_dark.jpg <-> media/image/009_variant_reframe.jpg [variant] None
+  media/image/010_original.jpg <-> media/image/010_variant_hue.jpg [variant] None
+False positives (top 20):
+Group false positives (top 20):
+Wrong directions (top 20):

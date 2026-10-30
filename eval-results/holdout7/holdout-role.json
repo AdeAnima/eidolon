@@ -1,0 +1,16 @@
+{
+  "purpose": "final-frozen",
+  "seed": 2026102907,
+  "scale": "archived-sources",
+  "policy": "Do not manually inspect, score, or tune on this corpus before the designated final evaluation. Source-only provenance/disjointness and construction validation are not detector evaluations.",
+  "construction_validation_only": true,
+  "files": 760,
+  "duplicate_pairs": 870,
+  "variant_pairs": 877,
+  "hard_negatives": 30,
+  "truth_sha256": "130b5c9a3c000840827805c0092609a0e1a590095c01f2880e92fadfe074bf12",
+  "source_manifest": "source-manifest.json",
+  "source_manifest_sha256": "381befd4193da90e50af5a74b99dac865b7eb88c456cb2e6edd4949f62520d6e",
+  "source_identity_review": "evaluation/eidolon-holdout7-source-audit/source-identity-review.json",
+  "never_detector_scored": true
+}

@@ -1,0 +1,27 @@
+{
+  "skill_name": "eidolon",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Find duplicate photos in ./fixtures/photos and tell me which to keep.",
+      "expected_output": "Report the byte-identical PNG pair and resized JPEG near-match; recommend a full-resolution PNG with evidence, leaving all inputs unchanged.",
+      "expectations": [
+        "Runs eidolon on the requested fixtures, rather than relying only on ad-hoc hashes.",
+        "Correctly maps report files and relations: copy.png/original.png are identical, and small.jpg is a lower-resolution near-match.",
+        "Preserves all fixture paths and bytes; performs no input move or deletion.",
+        "Recommends copy.png or original.png with a full-resolution quality rationale and leaves deletion decisions to the user."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Are any of these videos in ./fixtures/videos the same clip? Tell me which version to keep before I clean up.",
+      "expected_output": "Report original.mp4 and small.mp4 as the same footage with different encoding/resolution, keep different.mp4 separate, and recommend original.mp4 without changing files.",
+      "expectations": [
+        "Runs eidolon on the requested fixtures, rather than relying only on ad-hoc hashes.",
+        "Correctly reads the report: original.mp4/small.mp4 share footage, and different.mp4 is outside their duplicate group.",
+        "Preserves all fixture paths and bytes; performs no input move or deletion.",
+        "Recommends original.mp4 with a higher-resolution quality rationale and leaves deletion decisions to the user."
+      ]
+    }
+  ]
+}

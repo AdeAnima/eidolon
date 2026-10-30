@@ -1,0 +1,3 @@
+0c2776e5d96628b9568535fc6a201fe0db5db0349c76c955066e8a95f7ce55c8  target/release/eidolon
+901f56d692008bff6715c8dfb6959c36116a461d1d320d752bb1260d7d91cf4e  target/release/eidolon-eval
+021e0312a4050b53f384a6acf8b3928e8df18f52ea4d0ac352140da9440cf369  evaluation/eidolon-eval-holdout8/truth.json

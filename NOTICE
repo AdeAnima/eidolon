@@ -1,0 +1,37 @@
+eidolon — third-party materials and evaluation provenance
+
+Project code is provided under the MIT licence in LICENSE. THIRD_PARTY_LICENSES
+contains Rust dependency licence texts and corresponding source archive links.
+Dynamically linked Homebrew libraries retain their own licences: FFmpeg (GPL-3.0-or-later), OpenCV (Apache-2.0) and ONNX Runtime (MIT); those licences apply to the respective libraries and are not replaced by eidolon's MIT licence.
+
+Evaluation materials
+
+Original media, source text captures and generated corpus media are not
+redistributed in this repository. Only evaluation metadata and reports are
+retained. The per-source author, licence, licence URL, original source/work URL
+and payload SHA-256 are recorded in:
+
+  eval-results/holdout7/source-manifest.json
+  eval-results/holdout8/source-manifest.json
+
+Regeneration requires obtaining the recorded source representations and
+observing their individual terms. Construction-lineage hashes identify the
+original construction artifacts; source and payload hashes identify media bytes.
+
+Optional DINOv2 embedding model
+
+Model weights are not included. The explicit `eidolon fetch-models` command
+downloads the pinned ONNX conversion and verifies its recorded SHA-256.
+
+The upstream facebook/dinov2-small model card declares Apache-2.0 (checked
+2026-10-30):
+  https://huggingface.co/facebook/dinov2-small/blob/main/README.md
+  https://github.com/facebookresearch/dinov2/blob/main/LICENSE
+
+The pinned onnx-community conversion card identifies facebook/dinov2-small as
+its base model, but does not declare a separate licence in its metadata.
+Conversion-specific licence metadata/terms have not been independently verified:
+  https://huggingface.co/onnx-community/dinov2-small/blob/8b1f705a3a7f6f062f6bdd21986c1583d3ef105d/README.md
+
+Consult the upstream and conversion repositories before downloading or
+redistributing model weights. This notice does not grant additional rights.

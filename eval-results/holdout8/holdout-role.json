@@ -1,0 +1,18 @@
+{
+  "purpose": "final-frozen",
+  "seed": 2026103008,
+  "scale": "archived-sources",
+  "source_originals_per_kind": 20,
+  "files": 760,
+  "duplicate_pairs": 858,
+  "variant_pairs": 879,
+  "frame_of_pairs": 318,
+  "hard_negatives": 30,
+  "truth_sha256": "021e0312a4050b53f384a6acf8b3928e8df18f52ea4d0ac352140da9440cf369",
+  "source_manifest": "source-manifest.json",
+  "source_manifest_sha256": "0ac979cf755a53be63de52ae2ff18f0942d07a9b414486ab5a3885ba250e15e9",
+  "source_identity_review": "evaluation/eidolon-holdout8-source-audit/source-identity-review.json",
+  "construction_validation_only": true,
+  "never_detector_scored": true,
+  "policy": "No detector matching, grouping, tuning or scoring before designated final evaluation. Construction/source-only decoding, probing, hashes, distinctness, registration and provenance audits are not detector evaluations."
+}

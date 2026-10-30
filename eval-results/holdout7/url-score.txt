@@ -1,0 +1,101 @@
+Eidolon args: ["--json", "--thumbnails", "on", "--remote-video-mode", "keyframes", "--stdin", "--null"]
+URL body bytes: 135857173 / 338674709 full remote bytes; bytes-fetched ratio 0.4011; 112 files
+FrameOf local_video: direct 211/267 (0.790), group 250/267 (0.936)
+FrameOf local_video/thumb_frame: direct 84/89 (0.944), group 85/89 (0.955)
+FrameOf local_video/thumb_overlay: direct 43/89 (0.483), group 80/89 (0.899)
+FrameOf local_video/thumb_poster: direct 84/89 (0.944), group 85/89 (0.955)
+FrameOf remote_video: direct 14/63 (0.222), group 33/63 (0.524)
+FrameOf remote_video/thumb_frame: direct 6/21 (0.286), group 11/21 (0.524)
+FrameOf remote_video/thumb_overlay: direct 2/21 (0.095), group 11/21 (0.524)
+FrameOf remote_video/thumb_poster: direct 6/21 (0.286), group 11/21 (0.524)
+HTTP body bytes served: 135857173 / 338674709; served ratio 0.4011
+category                         precision direct-recall group-recall label-accuracy direction-accuracy
+DUPLICATES                       1.000     0.841         0.929        0.999          1.000
+VARIANTS                         1.000     0.811         n/a          1.000          n/a
+image/canvas_reframe             1.000     1.000         1.000        1.000          n/a
+image/crop_40                    1.000     0.950         0.950        1.000          1.000
+image/crop_60                    1.000     1.000         1.000        1.000          1.000
+image/crop_80                    1.000     1.000         1.000        1.000          1.000
+image/crop_watermark_q25         1.000     0.800         1.000        1.000          1.000
+image/exact                      1.000     1.000         1.000        1.000          n/a
+image/jpeg_q25                   1.000     1.000         1.000        1.000          n/a
+image/original                   1.000     n/a           n/a          n/a            n/a
+image/png_to_jpeg                1.000     1.000         1.000        1.000          n/a
+image/png_transcode              1.000     1.000         1.000        1.000          n/a
+image/resize_50                  1.000     1.000         1.000        1.000          n/a
+image/subtle_hue                 1.000     1.000         1.000        1.000          n/a
+image/subtle_relight             1.000     1.000         1.000        1.000          n/a
+image/thumb_320                  1.000     1.000         1.000        1.000          n/a
+image/thumb_frame                1.000     0.818         0.873        1.000          1.000
+image/thumb_overlay              1.000     0.409         0.827        1.000          1.000
+image/thumb_poster               1.000     0.818         0.873        1.000          1.000
+image/variant                    1.000     0.849         n/a          1.000          n/a
+image/variant_hue                1.000     n/a           n/a          n/a            n/a
+image/variant_light_dark         1.000     n/a           n/a          n/a            n/a
+image/variant_reframe            1.000     n/a           n/a          n/a            n/a
+image/variant_relit              1.000     n/a           n/a          n/a            n/a
+image/watermark                  1.000     1.000         1.000        1.000          n/a
+text/crlf                        1.000     1.000         1.000        1.000          n/a
+text/exact                       1.000     1.000         1.000        1.000          n/a
+text/excerpt_10                  1.000     1.000         1.000        1.000          1.000
+text/excerpt_20                  1.000     1.000         1.000        1.000          1.000
+text/excerpt_30                  1.000     1.000         1.000        1.000          1.000
+text/light_edits                 1.000     1.000         1.000        1.000          n/a
+text/original                    1.000     n/a           n/a          n/a            n/a
+text/rewrapped                   1.000     1.000         1.000        1.000          n/a
+text/variant                     1.000     n/a           n/a          n/a            n/a
+video/clip_10s                   1.000     0.800         0.850        1.000          1.000
+video/clip_25pct                 1.000     0.700         0.850        1.000          1.000
+video/exact                      1.000     1.000         1.000        1.000          n/a
+video/letterboxed                1.000     0.900         0.900        0.944          n/a
+video/low_bitrate_360p           1.000     0.550         0.900        1.000          n/a
+video/original                   1.000     n/a           n/a          n/a            n/a
+video/variant                    1.000     0.283         n/a          1.000          n/a
+video/variant_hue                1.000     n/a           n/a          n/a            n/a
+video/watermark                  1.000     0.650         0.800        1.000          n/a
+Group precision: 1.000; hard-negative errors: 0 direct / 0 grouped; ignored sibling predictions: 2121
+Misses (after groups) (top 20):
+  media/image/000_thumb_320.jpg <-> media/image/000_variant_light_dark.jpg [variant] None
+  media/image/001_original.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_exact.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_resize_50.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_resize_50.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/001_thumb_320.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_thumb_320.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/001_jpeg_q25.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_png_transcode.png <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_png_to_jpeg.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_subtle_relight.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_subtle_hue.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_variant_hue.jpg <-> media/image/001_variant_light_dark.jpg [variant] None
+  media/image/001_variant_hue.jpg <-> media/image/001_variant_relit.jpg [variant] None
+  media/image/001_variant_hue.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/001_variant_light_dark.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/004_original.jpg <-> media/image/004_variant_hue.jpg [variant] None
+  media/image/004_exact.jpg <-> media/image/004_variant_hue.jpg [variant] None
+  media/image/004_resize_50.jpg <-> media/image/004_variant_hue.jpg [variant] None
+  media/image/004_thumb_320.jpg <-> media/image/004_variant_hue.jpg [variant] None
+Direct misses (includes group-only finds) (top 20):
+  media/image/000_thumb_320.jpg <-> media/image/000_variant_light_dark.jpg [variant] None
+  media/image/001_crop_watermark_q25.jpg <-> media/image/001_original.jpg [crop_of] None
+  media/image/001_original.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_exact.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_resize_50.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_resize_50.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/001_thumb_320.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_thumb_320.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/001_jpeg_q25.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_png_transcode.png <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_png_to_jpeg.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_subtle_relight.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_subtle_hue.jpg <-> media/image/001_variant_hue.jpg [variant] None
+  media/image/001_variant_hue.jpg <-> media/image/001_variant_light_dark.jpg [variant] None
+  media/image/001_variant_hue.jpg <-> media/image/001_variant_relit.jpg [variant] None
+  media/image/001_variant_hue.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/001_variant_light_dark.jpg <-> media/image/001_variant_reframe.jpg [variant] None
+  media/image/004_original.jpg <-> media/image/004_variant_hue.jpg [variant] None
+  media/image/004_exact.jpg <-> media/image/004_variant_hue.jpg [variant] None
+  media/image/004_resize_50.jpg <-> media/image/004_variant_hue.jpg [variant] None
+False positives (top 20):
+Group false positives (top 20):
+Wrong directions (top 20):

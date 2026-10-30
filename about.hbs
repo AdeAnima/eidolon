@@ -1,0 +1,39 @@
+THIRD-PARTY RUST DEPENDENCIES
+=============================
+
+Generated from Cargo.lock by cargo-about 0.9.3:
+  cargo about generate --frozen --workspace --all-features --fail about.hbs --output-file THIRD_PARTY_LICENSES
+
+This inventory includes the resolved workspace dependency graph across target
+platforms, including build/test dependencies. Some listed components are not
+linked into the macOS eidolon executable. eidolon project code is covered by
+LICENSE. Homebrew-provided dynamic native libraries and optional model weights
+are distributed separately and retain their own terms; see NOTICE.
+
+The source archive URL beside each exact crate version provides its corresponding
+unmodified source, including MPL-2.0-covered source files. These Rust dependencies
+are used without source modifications. MPL-covered source is available at those
+URLs under the MPL-2.0 terms reproduced below. Package author names come from the
+crate metadata; licence texts are harvested from packaged files, with standard
+SPDX text where the package does not provide a separately detected licence file.
+
+PACKAGE INVENTORY
+=================
+{{#each crates}}
+{{package.name}} {{package.version}}
+Declared licence: {{{license}}}
+Source: https://crates.io/api/v1/crates/{{package.name}}/{{package.version}}/download
+{{#each package.authors}}Author: {{{this}}}
+{{/each}}
+{{/each}}
+LICENCE TEXTS AND APPLICABLE PACKAGES
+====================================
+{{#each licenses}}
+-------------------------------------------------------------------------------
+{{{name}}} ({{{id}}})
+Used by:
+{{#each used_by}}  {{crate.name}} {{crate.version}}
+{{/each}}
+{{{text}}}
+
+{{/each}}

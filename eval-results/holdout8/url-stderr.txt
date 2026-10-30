@@ -1,0 +1,80 @@
+Effective settings: {"fast":false,"video_fps":2.0,"embed_device_requested":"auto","embed_device":"cpu","thumbnails_requested":"on","thumbnails":true,"remote_overlay":true,"image_source_bank":true,"max_fetch_fraction":0.25,"min_score":0.75,"jobs":16,"no_embeddings":false,"no_keypoints":false,"remote_video_mode":"keyframes"}
+eidolon: source-aspect center candidates for 440 images: 1.873s
+eidolon: image candidate generation and proof: 12.016s
+Video refinement timing: {"file_id":72,"provider_seconds":2.546891,"provider_calls":155,"decode_seconds":1.704291,"decode_calls":16,"proof_seconds":0.271218,"proof_calls":43,"cache_hits":27}
+Video refinement timing: {"file_id":48,"provider_seconds":3.847416,"provider_calls":58,"decode_seconds":0.961245,"decode_calls":10,"proof_seconds":0.114004,"proof_calls":30,"cache_hits":20}
+Video refinement timing: {"file_id":96,"provider_seconds":0.328810,"provider_calls":8,"decode_seconds":0.536560,"decode_calls":5,"proof_seconds":0.100261,"proof_calls":15,"cache_hits":10}
+Video refinement timing: {"file_id":49,"provider_seconds":0.569484,"provider_calls":63,"decode_seconds":0.787221,"decode_calls":8,"proof_seconds":0.113911,"proof_calls":24,"cache_hits":16}
+Video refinement timing: {"file_id":2,"provider_seconds":2.736702,"provider_calls":31,"decode_seconds":4.113712,"decode_calls":30,"proof_seconds":0.102032,"proof_calls":30,"cache_hits":0}
+Video refinement timing: {"file_id":80,"provider_seconds":3.567693,"provider_calls":238,"decode_seconds":2.472474,"decode_calls":22,"proof_seconds":1.482807,"proof_calls":336,"cache_hits":314}
+Video refinement timing: {"file_id":1,"provider_seconds":2.646580,"provider_calls":49,"decode_seconds":4.952778,"decode_calls":40,"proof_seconds":1.112344,"proof_calls":360,"cache_hits":320}
+Video refinement timing: {"file_id":34,"provider_seconds":0.928644,"provider_calls":25,"decode_seconds":2.419893,"decode_calls":24,"proof_seconds":0.072918,"proof_calls":24,"cache_hits":0}
+Video refinement timing: {"file_id":50,"provider_seconds":2.325828,"provider_calls":32,"decode_seconds":4.696605,"decode_calls":30,"proof_seconds":0.244836,"proof_calls":60,"cache_hits":30}
+Video refinement timing: {"file_id":91,"provider_seconds":2.351268,"provider_calls":45,"decode_seconds":9.680197,"decode_calls":35,"proof_seconds":2.771449,"proof_calls":163,"cache_hits":128}
+Video refinement timing: {"file_id":11,"provider_seconds":0.494572,"provider_calls":29,"decode_seconds":1.446591,"decode_calls":14,"proof_seconds":0.066565,"proof_calls":14,"cache_hits":0}
+Video refinement timing: {"file_id":7,"provider_seconds":4.233688,"provider_calls":578,"decode_seconds":11.520670,"decode_calls":76,"proof_seconds":0.973269,"proof_calls":270,"cache_hits":194}
+Video refinement timing: {"file_id":60,"provider_seconds":4.215682,"provider_calls":190,"decode_seconds":11.515697,"decode_calls":83,"proof_seconds":2.517749,"proof_calls":521,"cache_hits":438}
+Video refinement timing: {"file_id":6,"provider_seconds":5.633680,"provider_calls":145,"decode_seconds":19.814998,"decode_calls":139,"proof_seconds":1.453298,"proof_calls":353,"cache_hits":214}
+Video refinement timing: {"file_id":43,"provider_seconds":1.474285,"provider_calls":154,"decode_seconds":2.340510,"decode_calls":18,"proof_seconds":0.410675,"proof_calls":67,"cache_hits":49}
+Video refinement timing: {"file_id":58,"provider_seconds":5.575925,"provider_calls":288,"decode_seconds":16.306501,"decode_calls":126,"proof_seconds":15.609988,"proof_calls":3416,"cache_hits":3290}
+Video refinement timing: {"file_id":103,"provider_seconds":1.780842,"provider_calls":42,"decode_seconds":0.996939,"decode_calls":10,"proof_seconds":0.074476,"proof_calls":14,"cache_hits":4}
+Video refinement timing: {"file_id":87,"provider_seconds":6.166899,"provider_calls":881,"decode_seconds":18.646599,"decode_calls":118,"proof_seconds":1.840776,"proof_calls":394,"cache_hits":276}
+Video refinement timing: {"file_id":37,"provider_seconds":8.481896,"provider_calls":1230,"decode_seconds":7.371097,"decode_calls":34,"proof_seconds":2.110624,"proof_calls":476,"cache_hits":442}
+Video refinement timing: {"file_id":109,"provider_seconds":0.409267,"provider_calls":9,"decode_seconds":0.922378,"decode_calls":8,"proof_seconds":0.032168,"proof_calls":8,"cache_hits":0}
+Video refinement timing: {"file_id":59,"provider_seconds":2.090114,"provider_calls":46,"decode_seconds":5.608689,"decode_calls":38,"proof_seconds":1.331559,"proof_calls":304,"cache_hits":266}
+Video refinement timing: {"file_id":68,"provider_seconds":0.454385,"provider_calls":129,"decode_seconds":5.739394,"decode_calls":52,"proof_seconds":0.182264,"proof_calls":52,"cache_hits":0}
+Video refinement timing: {"file_id":32,"provider_seconds":7.007322,"provider_calls":108,"decode_seconds":11.055363,"decode_calls":28,"proof_seconds":13.611473,"proof_calls":784,"cache_hits":756}
+Video refinement timing: {"file_id":67,"provider_seconds":5.632562,"provider_calls":213,"decode_seconds":24.060277,"decode_calls":125,"proof_seconds":6.959173,"proof_calls":1599,"cache_hits":1474}
+Remote video: http://127.0.0.1:52871/media/video/007_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=486306 bytes; refinement=2965504 bytes; total=3451810 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/007_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/010_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=200348 bytes; refinement=4096000 bytes; total=4296348 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/010_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/017_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=658852 bytes; refinement=4636672 bytes; total=5295524 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/017_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/012_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=366276 bytes; refinement=3538944 bytes; total=3905220 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/012_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/005_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=110988 bytes; refinement=589824 bytes; total=700812 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/005_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/014_exact.webm; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=1189447 bytes; refinement=8880128 bytes; total=10069575 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/014_exact.webm; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/004_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=75322 bytes; refinement=933888 bytes; total=1009210 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/004_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/006_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=326779 bytes; refinement=6324224 bytes; total=6651003 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/006_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/002_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; initial=109359 bytes; refinement=0 bytes; total=109359 bytes
+Remote video: http://127.0.0.1:52871/media/video/005_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=236117 bytes; refinement=2424832 bytes; total=2660949 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/005_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/001_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=324848 bytes; refinement=4374528 bytes; total=4699376 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/001_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/009_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=74394 bytes; refinement=1032192 bytes; total=1106586 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/009_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/010_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=248503 bytes; refinement=4718592 bytes; total=4967095 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/010_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/004_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=270661 bytes; refinement=3276800 bytes; total=3547461 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/004_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/009_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=173038 bytes; refinement=2818048 bytes; total=2991086 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/009_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/004_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=239567 bytes; refinement=3588096 bytes; total=3827663 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/004_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/013_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=667887 bytes; refinement=8962048 bytes; total=9629935 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/013_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/003_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=123063 bytes; refinement=278528 bytes; total=401591 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/003_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/016_clip_10s.mp4; mode=sparse; reason=indexed_keyframes; initial=68358 bytes; refinement=0 bytes; total=68358 bytes
+Remote video: http://127.0.0.1:52871/media/video/010_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; initial=46799 bytes; refinement=0 bytes; total=46799 bytes
+Remote video: http://127.0.0.1:52871/media/video/005_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=262765 bytes; refinement=2162688 bytes; total=2425453 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/005_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/014_letterboxed.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=140677 bytes; refinement=2539520 bytes; total=2680197 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/014_letterboxed.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/016_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=401650 bytes; refinement=6340608 bytes; total=6742258 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/016_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/010_exact.webm; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=1517750 bytes; refinement=2048000 bytes; total=3565750 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/010_exact.webm; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/018_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=162848 bytes; refinement=1064960 bytes; total=1227808 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/018_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/001_letterboxed.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=199709 bytes; refinement=2146304 bytes; total=2346013 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/001_letterboxed.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:52871/media/video/011_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; initial=120211 bytes; refinement=0 bytes; total=120211 bytes
+Remote video: http://127.0.0.1:52871/media/video/007_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_prefix_refinement; initial=129734 bytes; refinement=1130496 bytes; total=1260230 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:52871/media/video/007_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote transfer: 101387066 bytes fetched / 377932602 bytes total remote size; 0 failed URLs (112 URL inputs)

@@ -1,0 +1,1 @@
+Effective settings: {"fast":false,"video_fps":2.0,"embed_device_requested":"auto","embed_device":"coreml","thumbnails_requested":"on","thumbnails":true,"max_fetch_fraction":0.25,"min_score":0.75,"jobs":16,"no_embeddings":false,"no_keypoints":false,"remote_video_mode":"keyframes"}

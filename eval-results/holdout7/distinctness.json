@@ -1,0 +1,19 @@
+{
+  "text_families": 20,
+  "image_families": 20,
+  "video_families": 20,
+  "text_pairs_checked": 190,
+  "image_pairs_checked": 190,
+  "video_pairs_checked": 190,
+  "text_hard_negatives_checked": 10,
+  "max_text_5_shingle_jaccard": 0.000354421407052986,
+  "shared_text_15_word_pairs": 0,
+  "near_identical_image_pairs": 0,
+  "near_identical_video_pairs": 0,
+  "duplicate_video_parameters": 0,
+  "expected_variant_pairs": 877,
+  "variant_original_pairs": 0,
+  "ignored_design_pairs": 583,
+  "minimum_variant_rgb_mae": 20.27373589409722,
+  "variant_hard_negative_pairs": 0
+}

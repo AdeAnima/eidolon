@@ -1,0 +1,5 @@
+{
+  "minimum_correlation": 0.99,
+  "minimum_coverage": 0.8,
+  "source_links": []
+}

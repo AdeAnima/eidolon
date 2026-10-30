@@ -1,0 +1,3 @@
+Effective settings: {"fast":false,"video_fps":2.0,"embed_device_requested":"auto","embed_device":"coreml","thumbnails_requested":"on","thumbnails":true,"remote_overlay":true,"image_source_bank":true,"max_fetch_fraction":0.25,"min_score":0.75,"jobs":16,"no_embeddings":false,"no_keypoints":false,"remote_video_mode":"keyframes"}
+eidolon: source-aspect center candidates for 440 images: 1.836s
+eidolon: image candidate generation and proof: 11.830s

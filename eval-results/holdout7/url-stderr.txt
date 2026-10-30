@@ -1,0 +1,55 @@
+eidolon: warning: non-indexed/non-MP4 video: downloading in full under the size cap
+Effective settings: {"fast":false,"video_fps":2.0,"embed_device_requested":"auto","embed_device":"cpu","thumbnails_requested":"on","thumbnails":true,"max_fetch_fraction":0.25,"min_score":0.75,"jobs":16,"no_embeddings":false,"no_keypoints":false,"remote_video_mode":"keyframes"}
+Remote video: http://127.0.0.1:49358/media/video/000_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=972098 bytes; refinement=14663680 bytes; total=15635778 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/000_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/010_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=18464 bytes; refinement=1277952 bytes; total=1296416 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/010_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/008_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=110670 bytes; refinement=3457024 bytes; total=3567694 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/008_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/002_variant_hue.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=208692 bytes; refinement=3440640 bytes; total=3649332 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/002_variant_hue.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/018_watermark.mp4; mode=sparse; reason=indexed_keyframes; initial=68169 bytes; refinement=0 bytes; total=68169 bytes
+Remote video: http://127.0.0.1:49358/media/video/016_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=111984 bytes; refinement=360448 bytes; total=472432 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/016_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/010_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=22817 bytes; refinement=49152 bytes; total=71969 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/010_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/011_letterboxed.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=317156 bytes; refinement=4849664 bytes; total=5166820 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/011_letterboxed.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/014_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=50098 bytes; refinement=114688 bytes; total=164786 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/014_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/000_exact.webm; mode=full; reason=non_indexed_video; initial=59850769 bytes; refinement=0 bytes; total=59850769 bytes
+Remote video: http://127.0.0.1:49358/media/video/001_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=61505 bytes; refinement=131072 bytes; total=192577 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/001_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/019_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=72143 bytes; refinement=573440 bytes; total=645583 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/019_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/013_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=37081 bytes; refinement=81920 bytes; total=119001 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/013_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/019_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=52129 bytes; refinement=114688 bytes; total=166817 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/019_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/013_watermark.mp4; mode=sparse; reason=indexed_keyframes; initial=103099 bytes; refinement=0 bytes; total=103099 bytes
+Remote video: http://127.0.0.1:49358/media/video/011_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=515816 bytes; refinement=8749056 bytes; total=9264872 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/011_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/000_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=164387 bytes; refinement=278528 bytes; total=442915 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/000_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/006_watermark.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=166865 bytes; refinement=2916352 bytes; total=3083217 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/006_watermark.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/005_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=55893 bytes; refinement=81920 bytes; total=137813 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/005_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/013_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=54160 bytes; refinement=475136 bytes; total=529296 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/013_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/004_clip_25pct.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=140547 bytes; refinement=4358144 bytes; total=4498691 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/004_clip_25pct.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/000_letterboxed.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=611364 bytes; refinement=7864320 bytes; total=8475684 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/000_letterboxed.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/016_letterboxed.mp4; mode=sparse; reason=indexed_keyframes; initial=60064 bytes; refinement=0 bytes; total=60064 bytes
+Remote video: http://127.0.0.1:49358/media/video/011_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=98724 bytes; refinement=294912 bytes; total=393636 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/011_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/005_clip_10s.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=60203 bytes; refinement=491520 bytes; total=551723 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/005_clip_10s.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/004_clip_10s.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=144277 bytes; refinement=1687552 bytes; total=1831829 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/004_clip_10s.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/012_low_bitrate_360p.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=134461 bytes; refinement=180224 bytes; total=314685 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/012_low_bitrate_360p.mp4; native windows skipped; recall may be limited
+Remote video: http://127.0.0.1:49358/media/video/011_clip_10s.mp4; mode=sparse; reason=indexed_keyframes; native_gop_refinement; initial=114841 bytes; refinement=573440 bytes; total=688281 bytes
+eidolon: remote video refinement budget exhausted for http://127.0.0.1:49358/media/video/011_clip_10s.mp4; native windows skipped; recall may be limited
+Remote transfer: 135857173 bytes fetched / 338674709 bytes total remote size; 0 failed URLs (112 URL inputs)

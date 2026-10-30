@@ -1,0 +1,567 @@
+{
+  "files": {
+    "media/image/000_crop_watermark_q25.jpg": {
+      "size": 38309,
+      "bytes_served": 38309,
+      "requests": 2
+    },
+    "media/image/001_crop_watermark_q25.jpg": {
+      "size": 16389,
+      "bytes_served": 16389,
+      "requests": 2
+    },
+    "media/image/001_exact.jpg": {
+      "size": 81138,
+      "bytes_served": 81138,
+      "requests": 2
+    },
+    "media/image/001_png_transcode.png": {
+      "size": 542957,
+      "bytes_served": 542957,
+      "requests": 2
+    },
+    "media/image/001_watermark.jpg": {
+      "size": 90028,
+      "bytes_served": 90028,
+      "requests": 2
+    },
+    "media/image/002_jpeg_q25.jpg": {
+      "size": 45605,
+      "bytes_served": 45605,
+      "requests": 2
+    },
+    "media/image/002_variant_relit.jpg": {
+      "size": 184395,
+      "bytes_served": 184395,
+      "requests": 2
+    },
+    "media/image/002_watermark.jpg": {
+      "size": 201674,
+      "bytes_served": 201674,
+      "requests": 2
+    },
+    "media/image/003_crop_80.jpg": {
+      "size": 113720,
+      "bytes_served": 113720,
+      "requests": 2
+    },
+    "media/image/003_jpeg_q25.jpg": {
+      "size": 31077,
+      "bytes_served": 31077,
+      "requests": 2
+    },
+    "media/image/003_png_to_jpeg.jpg": {
+      "size": 98240,
+      "bytes_served": 98240,
+      "requests": 2
+    },
+    "media/image/003_variant_hue.jpg": {
+      "size": 133262,
+      "bytes_served": 133262,
+      "requests": 2
+    },
+    "media/image/003_variant_reframe.jpg": {
+      "size": 105383,
+      "bytes_served": 105383,
+      "requests": 2
+    },
+    "media/image/003_watermark.jpg": {
+      "size": 119567,
+      "bytes_served": 119567,
+      "requests": 2
+    },
+    "media/image/004_crop_40.jpg": {
+      "size": 47568,
+      "bytes_served": 47568,
+      "requests": 2
+    },
+    "media/image/004_png_transcode.png": {
+      "size": 727595,
+      "bytes_served": 727595,
+      "requests": 2
+    },
+    "media/image/004_resize_50.jpg": {
+      "size": 32324,
+      "bytes_served": 32324,
+      "requests": 2
+    },
+    "media/image/004_thumb_320.jpg": {
+      "size": 13859,
+      "bytes_served": 13859,
+      "requests": 2
+    },
+    "media/image/005_crop_40.jpg": {
+      "size": 115158,
+      "bytes_served": 115158,
+      "requests": 2
+    },
+    "media/image/005_png_to_jpeg.jpg": {
+      "size": 188642,
+      "bytes_served": 188642,
+      "requests": 2
+    },
+    "media/image/005_thumb_320.jpg": {
+      "size": 15391,
+      "bytes_served": 15391,
+      "requests": 2
+    },
+    "media/image/006_canvas_reframe.jpg": {
+      "size": 91080,
+      "bytes_served": 91080,
+      "requests": 2
+    },
+    "media/image/006_png_transcode.png": {
+      "size": 584453,
+      "bytes_served": 584453,
+      "requests": 2
+    },
+    "media/image/006_variant_light_dark.jpg": {
+      "size": 113181,
+      "bytes_served": 113181,
+      "requests": 2
+    },
+    "media/image/006_watermark.jpg": {
+      "size": 112800,
+      "bytes_served": 112800,
+      "requests": 2
+    },
+    "media/image/007_crop_40.jpg": {
+      "size": 48399,
+      "bytes_served": 48399,
+      "requests": 2
+    },
+    "media/image/007_jpeg_q25.jpg": {
+      "size": 23175,
+      "bytes_served": 23175,
+      "requests": 2
+    },
+    "media/image/007_png_transcode.png": {
+      "size": 475641,
+      "bytes_served": 475641,
+      "requests": 2
+    },
+    "media/image/007_resize_50.jpg": {
+      "size": 28500,
+      "bytes_served": 28500,
+      "requests": 2
+    },
+    "media/image/007_variant_hue.jpg": {
+      "size": 98111,
+      "bytes_served": 98111,
+      "requests": 2
+    },
+    "media/image/007_variant_light_dark.jpg": {
+      "size": 88901,
+      "bytes_served": 88901,
+      "requests": 2
+    },
+    "media/image/007_watermark.jpg": {
+      "size": 88369,
+      "bytes_served": 88369,
+      "requests": 2
+    },
+    "media/image/008_crop_80.jpg": {
+      "size": 241988,
+      "bytes_served": 241988,
+      "requests": 2
+    },
+    "media/image/008_png_transcode.png": {
+      "size": 1125031,
+      "bytes_served": 1125031,
+      "requests": 2
+    },
+    "media/image/008_resize_50.jpg": {
+      "size": 72353,
+      "bytes_served": 72353,
+      "requests": 2
+    },
+    "media/image/008_subtle_relight.jpg": {
+      "size": 283992,
+      "bytes_served": 283992,
+      "requests": 2
+    },
+    "media/image/008_variant_light_dark.jpg": {
+      "size": 279658,
+      "bytes_served": 279658,
+      "requests": 2
+    },
+    "media/image/009_crop_60.jpg": {
+      "size": 143170,
+      "bytes_served": 143170,
+      "requests": 2
+    },
+    "media/image/009_png_transcode.png": {
+      "size": 904204,
+      "bytes_served": 904204,
+      "requests": 2
+    },
+    "media/image/009_subtle_relight.jpg": {
+      "size": 220404,
+      "bytes_served": 220404,
+      "requests": 2
+    },
+    "media/image/009_variant_reframe.jpg": {
+      "size": 196820,
+      "bytes_served": 196820,
+      "requests": 2
+    },
+    "media/image/010_crop_40.jpg": {
+      "size": 100759,
+      "bytes_served": 100759,
+      "requests": 2
+    },
+    "media/image/010_png_to_jpeg.jpg": {
+      "size": 217963,
+      "bytes_served": 217963,
+      "requests": 2
+    },
+    "media/image/010_watermark.jpg": {
+      "size": 246801,
+      "bytes_served": 246801,
+      "requests": 2
+    },
+    "media/image/011_resize_50.jpg": {
+      "size": 73120,
+      "bytes_served": 73120,
+      "requests": 2
+    },
+    "media/image/012_crop_80.jpg": {
+      "size": 132543,
+      "bytes_served": 132543,
+      "requests": 2
+    },
+    "media/image/012_subtle_hue.jpg": {
+      "size": 166048,
+      "bytes_served": 166048,
+      "requests": 2
+    },
+    "media/image/013_crop_60.jpg": {
+      "size": 159061,
+      "bytes_served": 159061,
+      "requests": 2
+    },
+    "media/image/013_crop_watermark_q25.jpg": {
+      "size": 36134,
+      "bytes_served": 36134,
+      "requests": 2
+    },
+    "media/image/013_jpeg_q25.jpg": {
+      "size": 60845,
+      "bytes_served": 60845,
+      "requests": 2
+    },
+    "media/image/013_png_transcode.png": {
+      "size": 981582,
+      "bytes_served": 981582,
+      "requests": 2
+    },
+    "media/image/013_variant_hue.jpg": {
+      "size": 278220,
+      "bytes_served": 278220,
+      "requests": 2
+    },
+    "media/image/013_variant_reframe.jpg": {
+      "size": 314942,
+      "bytes_served": 314942,
+      "requests": 2
+    },
+    "media/image/014_resize_50.jpg": {
+      "size": 44583,
+      "bytes_served": 44583,
+      "requests": 2
+    },
+    "media/image/014_watermark.jpg": {
+      "size": 157217,
+      "bytes_served": 157217,
+      "requests": 2
+    },
+    "media/image/015_exact.jpg": {
+      "size": 164154,
+      "bytes_served": 164154,
+      "requests": 2
+    },
+    "media/image/015_png_transcode.png": {
+      "size": 803572,
+      "bytes_served": 803572,
+      "requests": 2
+    },
+    "media/image/015_variant_light_dark.jpg": {
+      "size": 166822,
+      "bytes_served": 166822,
+      "requests": 2
+    },
+    "media/image/016_crop_40.jpg": {
+      "size": 79421,
+      "bytes_served": 79421,
+      "requests": 2
+    },
+    "media/image/016_thumb_320.jpg": {
+      "size": 12616,
+      "bytes_served": 12616,
+      "requests": 2
+    },
+    "media/image/016_variant_reframe.jpg": {
+      "size": 207318,
+      "bytes_served": 207318,
+      "requests": 2
+    },
+    "media/image/017_jpeg_q25.jpg": {
+      "size": 36735,
+      "bytes_served": 36735,
+      "requests": 2
+    },
+    "media/image/017_subtle_hue.jpg": {
+      "size": 145098,
+      "bytes_served": 145098,
+      "requests": 2
+    },
+    "media/image/017_variant_reframe.jpg": {
+      "size": 104956,
+      "bytes_served": 104956,
+      "requests": 2
+    },
+    "media/image/017_variant_relit.jpg": {
+      "size": 110510,
+      "bytes_served": 110510,
+      "requests": 2
+    },
+    "media/image/018_crop_60.jpg": {
+      "size": 109712,
+      "bytes_served": 109712,
+      "requests": 2
+    },
+    "media/image/018_jpeg_q25.jpg": {
+      "size": 35751,
+      "bytes_served": 35751,
+      "requests": 2
+    },
+    "media/image/018_subtle_relight.jpg": {
+      "size": 155607,
+      "bytes_served": 155607,
+      "requests": 2
+    },
+    "media/image/018_variant_light_dark.jpg": {
+      "size": 157656,
+      "bytes_served": 157656,
+      "requests": 2
+    },
+    "media/image/019_exact.jpg": {
+      "size": 116870,
+      "bytes_served": 116870,
+      "requests": 2
+    },
+    "media/image/019_jpeg_q25.jpg": {
+      "size": 30410,
+      "bytes_served": 30410,
+      "requests": 2
+    },
+    "media/image/019_png_transcode.png": {
+      "size": 585555,
+      "bytes_served": 585555,
+      "requests": 2
+    },
+    "media/image/video_001_thumb_frame.jpg": {
+      "size": 10298,
+      "bytes_served": 10298,
+      "requests": 2
+    },
+    "media/image/video_002_thumb_frame.jpg": {
+      "size": 20490,
+      "bytes_served": 20490,
+      "requests": 2
+    },
+    "media/image/video_003_thumb_frame.jpg": {
+      "size": 16269,
+      "bytes_served": 16269,
+      "requests": 2
+    },
+    "media/image/video_006_thumb_frame.jpg": {
+      "size": 5993,
+      "bytes_served": 5993,
+      "requests": 2
+    },
+    "media/image/video_006_thumb_overlay.jpg": {
+      "size": 10857,
+      "bytes_served": 10857,
+      "requests": 2
+    },
+    "media/image/video_006_thumb_poster.jpg": {
+      "size": 70001,
+      "bytes_served": 70001,
+      "requests": 2
+    },
+    "media/image/video_013_thumb_poster.jpg": {
+      "size": 68711,
+      "bytes_served": 68711,
+      "requests": 2
+    },
+    "media/image/video_014_thumb_overlay.jpg": {
+      "size": 8393,
+      "bytes_served": 8393,
+      "requests": 2
+    },
+    "media/image/video_015_thumb_frame.jpg": {
+      "size": 9364,
+      "bytes_served": 9364,
+      "requests": 2
+    },
+    "media/image/video_016_thumb_frame.jpg": {
+      "size": 10605,
+      "bytes_served": 10605,
+      "requests": 2
+    },
+    "media/image/video_017_thumb_overlay.jpg": {
+      "size": 21530,
+      "bytes_served": 21530,
+      "requests": 2
+    },
+    "media/image/video_019_thumb_frame.jpg": {
+      "size": 5622,
+      "bytes_served": 5622,
+      "requests": 2
+    },
+    "media/video/000_exact.webm": {
+      "size": 59850769,
+      "bytes_served": 59850769,
+      "requests": 2
+    },
+    "media/video/000_letterboxed.mp4": {
+      "size": 33952804,
+      "bytes_served": 8475684,
+      "requests": 237
+    },
+    "media/video/000_low_bitrate_360p.mp4": {
+      "size": 1802787,
+      "bytes_served": 442915,
+      "requests": 27
+    },
+    "media/video/000_variant_hue.mp4": {
+      "size": 62592322,
+      "bytes_served": 15635778,
+      "requests": 253
+    },
+    "media/video/001_low_bitrate_360p.mp4": {
+      "size": 782401,
+      "bytes_served": 192577,
+      "requests": 14
+    },
+    "media/video/002_variant_hue.mp4": {
+      "size": 14757684,
+      "bytes_served": 3649332,
+      "requests": 92
+    },
+    "media/video/004_clip_10s.mp4": {
+      "size": 7418773,
+      "bytes_served": 1831829,
+      "requests": 22
+    },
+    "media/video/004_clip_25pct.mp4": {
+      "size": 18244867,
+      "bytes_served": 4498691,
+      "requests": 60
+    },
+    "media/video/005_clip_10s.mp4": {
+      "size": 2239275,
+      "bytes_served": 551723,
+      "requests": 22
+    },
+    "media/video/005_low_bitrate_360p.mp4": {
+      "size": 596565,
+      "bytes_served": 137813,
+      "requests": 10
+    },
+    "media/video/006_watermark.mp4": {
+      "size": 12372945,
+      "bytes_served": 3083217,
+      "requests": 184
+    },
+    "media/video/008_watermark.mp4": {
+      "size": 14282830,
+      "bytes_served": 3567694,
+      "requests": 100
+    },
+    "media/video/010_low_bitrate_360p.mp4": {
+      "size": 317729,
+      "bytes_served": 71969,
+      "requests": 7
+    },
+    "media/video/010_variant_hue.mp4": {
+      "size": 5261344,
+      "bytes_served": 1296416,
+      "requests": 50
+    },
+    "media/video/011_clip_10s.mp4": {
+      "size": 2801817,
+      "bytes_served": 688281,
+      "requests": 23
+    },
+    "media/video/011_letterboxed.mp4": {
+      "size": 20682468,
+      "bytes_served": 5166820,
+      "requests": 234
+    },
+    "media/video/011_low_bitrate_360p.mp4": {
+      "size": 1622436,
+      "bytes_served": 393636,
+      "requests": 27
+    },
+    "media/video/011_watermark.mp4": {
+      "size": 37183208,
+      "bytes_served": 9264872,
+      "requests": 263
+    },
+    "media/video/012_low_bitrate_360p.mp4": {
+      "size": 1297725,
+      "bytes_served": 314685,
+      "requests": 19
+    },
+    "media/video/013_clip_25pct.mp4": {
+      "size": 2151312,
+      "bytes_served": 529296,
+      "requests": 26
+    },
+    "media/video/013_low_bitrate_360p.mp4": {
+      "size": 528601,
+      "bytes_served": 119001,
+      "requests": 10
+    },
+    "media/video/013_watermark.mp4": {
+      "size": 8164027,
+      "bytes_served": 103099,
+      "requests": 5
+    },
+    "media/video/014_low_bitrate_360p.mp4": {
+      "size": 672690,
+      "bytes_served": 164786,
+      "requests": 13
+    },
+    "media/video/016_clip_25pct.mp4": {
+      "size": 2012528,
+      "bytes_served": 472432,
+      "requests": 14
+    },
+    "media/video/016_letterboxed.mp4": {
+      "size": 3959456,
+      "bytes_served": 60064,
+      "requests": 4
+    },
+    "media/video/018_watermark.mp4": {
+      "size": 5376585,
+      "bytes_served": 68169,
+      "requests": 4
+    },
+    "media/video/019_clip_25pct.mp4": {
+      "size": 2628047,
+      "bytes_served": 645583,
+      "requests": 26
+    },
+    "media/video/019_low_bitrate_360p.mp4": {
+      "size": 707489,
+      "bytes_served": 166817,
+      "requests": 13
+    }
+  },
+  "bytes_served": 135857173,
+  "full_remote_bytes": 338674709,
+  "bytes_fetched_ratio": 0.4011435439072009
+}

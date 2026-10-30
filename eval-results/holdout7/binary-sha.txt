@@ -1,0 +1,2 @@
+de49d132853e89a3f7d741af355b2c21a65c9f0dc3abf281e855fb36559a96df  target/release/eidolon
+901f56d692008bff6715c8dfb6959c36116a461d1d320d752bb1260d7d91cf4e  target/release/eidolon-eval
